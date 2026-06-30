@@ -11,11 +11,11 @@ TEST_PATH = "data/UNSW_NB15_testing-set.csv"
 # Six numerical features selected for the 6-input ZK circuit
 FEATURES = [
     "sttl",
-    "dttl",
     "ct_state_ttl",
     "ct_dst_src_ltm",
-    "ct_srv_dst",
-    "rate",
+    "ct_dst_sport_ltm",
+    "ct_src_dport_ltm",
+    "smean",
 ]
 
 os.makedirs("model", exist_ok=True)
@@ -117,7 +117,7 @@ rng = np.random.default_rng(42)
 
 print("Training/searching small ZK-compatible model...")
 
-for trial in range(500):
+for trial in range(1500):
     W1 = rng.integers(-3, 4, size=(4, 6), dtype=np.int64)
     b1 = rng.integers(-5, 6, size=(4,), dtype=np.int64)
 

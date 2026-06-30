@@ -3,15 +3,15 @@
   "testing_set_rows": 82332,
   "features_used": [
     "sttl",
-    "dttl",
     "ct_state_ttl",
     "ct_dst_src_ltm",
-    "ct_srv_dst",
-    "rate"
+    "ct_dst_sport_ltm",
+    "ct_src_dport_ltm",
+    "smean"
   ],
   "selected_samples": 100,
   "normal_samples": 50,
   "attack_samples": 50,
-  "validation_accuracy_percent": 90.6,
-  "selected_100_accuracy_percent": 67.0
+  "validation_accuracy_percent": 86.6,
+  "selected_100_accuracy_percent": 81.0
 }

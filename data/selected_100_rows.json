@@ -6,22 +6,22 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 0.0,
       "ct_state_ttl": 2.0,
       "ct_dst_src_ltm": 4.0,
-      "ct_srv_dst": 7.0,
-      "rate": 100000.0025
+      "ct_dst_sport_ltm": 4.0,
+      "ct_src_dport_ltm": 4.0,
+      "smean": 57.0
     },
     "x": [
       100,
-      0,
       33,
       10,
-      17,
-      10
+      22,
+      12,
+      5
     ],
-    "normalScore": "9537456",
-    "attackScore": "9543465",
+    "normalScore": "87995708",
+    "attackScore": "143457515",
     "prediction": "Attack",
     "correct": true
   },
@@ -32,22 +32,22 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 31.0,
-      "dttl": 29.0,
       "ct_state_ttl": 0.0,
       "ct_dst_src_ltm": 1.0,
-      "ct_srv_dst": 5.0,
-      "rate": 2044.321891
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 58.0
     },
     "x": [
       12,
-      12,
       0,
       2,
-      12,
-      0
+      6,
+      3,
+      5
     ],
-    "normalScore": "13461398",
-    "attackScore": "5619523",
+    "normalScore": "143426748",
+    "attackScore": "88026475",
     "prediction": "Normal",
     "correct": true
   },
@@ -58,22 +58,22 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 0.0,
       "ct_state_ttl": 2.0,
       "ct_dst_src_ltm": 29.0,
-      "ct_srv_dst": 29.0,
-      "rate": 125000.0003
+      "ct_dst_sport_ltm": 18.0,
+      "ct_src_dport_ltm": 18.0,
+      "smean": 57.0
     },
     "x": [
       100,
-      0,
       33,
       71,
-      71,
-      12
+      100,
+      53,
+      5
     ],
-    "normalScore": "5197985",
-    "attackScore": "13882936",
+    "normalScore": "32403056",
+    "attackScore": "199050167",
     "prediction": "Attack",
     "correct": true
   },
@@ -84,22 +84,22 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 0.0,
       "ct_state_ttl": 2.0,
       "ct_dst_src_ltm": 2.0,
-      "ct_srv_dst": 2.0,
-      "rate": 166666.6608
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 1012.0
     },
     "x": [
       100,
-      0,
       33,
       5,
-      5,
-      17
+      6,
+      3,
+      89
     ],
-    "normalScore": "8279086",
-    "attackScore": "10801835",
+    "normalScore": "1000",
+    "attackScore": "231452223",
     "prediction": "Attack",
     "correct": false
   },
@@ -110,22 +110,22 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 0.0,
       "ct_state_ttl": 6.0,
       "ct_dst_src_ltm": 7.0,
-      "ct_srv_dst": 7.0,
-      "rate": 0.102756
+      "ct_dst_sport_ltm": 2.0,
+      "ct_src_dport_ltm": 2.0,
+      "smean": 45.0
     },
     "x": [
       100,
-      0,
       100,
       17,
-      17,
-      0
+      11,
+      6,
+      4
     ],
-    "normalScore": "12632650",
-    "attackScore": "6448271",
+    "normalScore": "148381607",
+    "attackScore": "83071616",
     "prediction": "Normal",
     "correct": true
   },
@@ -136,22 +136,22 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 252.0,
       "ct_state_ttl": 1.0,
       "ct_dst_src_ltm": 2.0,
-      "ct_srv_dst": 2.0,
-      "rate": 18.201078
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 252.0
     },
     "x": [
       100,
-      100,
       17,
       5,
-      5,
-      0
+      6,
+      3,
+      22
     ],
-    "normalScore": "7181177",
-    "attackScore": "11899744",
+    "normalScore": "111247465",
+    "attackScore": "120205758",
     "prediction": "Attack",
     "correct": false
   },
@@ -162,22 +162,22 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 252.0,
       "ct_state_ttl": 1.0,
       "ct_dst_src_ltm": 1.0,
-      "ct_srv_dst": 1.0,
-      "rate": 20.098007
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 112.0
     },
     "x": [
       100,
-      100,
       17,
       2,
-      2,
-      0
+      6,
+      3,
+      10
     ],
-    "normalScore": "6153365",
-    "attackScore": "12927556",
+    "normalScore": "112595743",
+    "attackScore": "118857480",
     "prediction": "Attack",
     "correct": true
   },
@@ -188,22 +188,22 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 62.0,
-      "dttl": 252.0,
       "ct_state_ttl": 1.0,
       "ct_dst_src_ltm": 1.0,
-      "ct_srv_dst": 1.0,
-      "rate": 57.341803
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 1234.0
     },
     "x": [
       24,
-      100,
       17,
       2,
-      2,
-      0
+      6,
+      3,
+      100
     ],
-    "normalScore": "7995149",
-    "attackScore": "11085772",
+    "normalScore": "79165895",
+    "attackScore": "152287328",
     "prediction": "Attack",
     "correct": true
   },
@@ -214,22 +214,22 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 0.0,
       "ct_state_ttl": 2.0,
       "ct_dst_src_ltm": 31.0,
-      "ct_srv_dst": 31.0,
-      "rate": 250000.0006
+      "ct_dst_sport_ltm": 17.0,
+      "ct_src_dport_ltm": 31.0,
+      "smean": 57.0
     },
     "x": [
       100,
-      0,
       33,
       76,
-      76,
-      25
+      94,
+      91,
+      5
     ],
-    "normalScore": "4331894",
-    "attackScore": "14749027",
+    "normalScore": "85197108",
+    "attackScore": "146256115",
     "prediction": "Attack",
     "correct": true
   },
@@ -240,24 +240,24 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 252.0,
       "ct_state_ttl": 1.0,
       "ct_dst_src_ltm": 4.0,
-      "ct_srv_dst": 4.0,
-      "rate": 14.941573
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 53.0
     },
     "x": [
       100,
-      100,
       17,
       10,
-      10,
-      0
+      6,
+      3,
+      5
     ],
-    "normalScore": "8901237",
-    "attackScore": "10179684",
-    "prediction": "Attack",
-    "correct": false
+    "normalScore": "120858704",
+    "attackScore": "110594519",
+    "prediction": "Normal",
+    "correct": true
   },
   {
     "sample_id": 10,
@@ -266,22 +266,22 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 252.0,
       "ct_state_ttl": 1.0,
       "ct_dst_src_ltm": 1.0,
-      "ct_srv_dst": 2.0,
-      "rate": 22.078798
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 55.0
     },
     "x": [
       100,
-      100,
       17,
       2,
-      5,
-      0
+      6,
+      3,
+      5
     ],
-    "normalScore": "8121224",
-    "attackScore": "10959697",
+    "normalScore": "114622688",
+    "attackScore": "116830535",
     "prediction": "Attack",
     "correct": true
   },
@@ -292,24 +292,24 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 252.0,
       "ct_state_ttl": 1.0,
       "ct_dst_src_ltm": 2.0,
-      "ct_srv_dst": 2.0,
-      "rate": 22.875535
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 48.0
     },
     "x": [
       100,
-      100,
       17,
       5,
-      5,
-      0
+      6,
+      3,
+      4
     ],
-    "normalScore": "7181177",
-    "attackScore": "11899744",
-    "prediction": "Attack",
-    "correct": false
+    "normalScore": "117402421",
+    "attackScore": "114050802",
+    "prediction": "Normal",
+    "correct": true
   },
   {
     "sample_id": 12,
@@ -318,22 +318,22 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 252.0,
       "ct_state_ttl": 1.0,
       "ct_dst_src_ltm": 1.0,
-      "ct_srv_dst": 2.0,
-      "rate": 9.203608
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 56.0
     },
     "x": [
       100,
-      100,
       17,
       2,
-      5,
-      0
+      6,
+      3,
+      5
     ],
-    "normalScore": "8121224",
-    "attackScore": "10959697",
+    "normalScore": "114622688",
+    "attackScore": "116830535",
     "prediction": "Attack",
     "correct": true
   },
@@ -344,24 +344,24 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 252.0,
       "ct_state_ttl": 1.0,
       "ct_dst_src_ltm": 1.0,
-      "ct_srv_dst": 6.0,
-      "rate": 17.20884
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 255.0
     },
     "x": [
       100,
-      100,
       17,
       2,
-      15,
-      0
+      6,
+      3,
+      22
     ],
-    "normalScore": "14776824",
-    "attackScore": "4304097",
-    "prediction": "Normal",
-    "correct": false
+    "normalScore": "107881015",
+    "attackScore": "123572208",
+    "prediction": "Attack",
+    "correct": true
   },
   {
     "sample_id": 14,
@@ -370,22 +370,22 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 31.0,
-      "dttl": 29.0,
       "ct_state_ttl": 0.0,
       "ct_dst_src_ltm": 1.0,
-      "ct_srv_dst": 3.0,
-      "rate": 3012.048141
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 73.0
     },
     "x": [
       12,
-      12,
       0,
       2,
-      7,
-      0
+      6,
+      3,
+      6
     ],
-    "normalScore": "12952193",
-    "attackScore": "6128728",
+    "normalScore": "143561335",
+    "attackScore": "87891888",
     "prediction": "Normal",
     "correct": true
   },
@@ -396,24 +396,24 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 0.0,
       "ct_state_ttl": 2.0,
       "ct_dst_src_ltm": 6.0,
-      "ct_srv_dst": 18.0,
-      "rate": 200000.0051
+      "ct_dst_sport_ltm": 6.0,
+      "ct_src_dport_ltm": 6.0,
+      "smean": 100.0
     },
     "x": [
       100,
-      0,
       33,
       15,
-      44,
-      20
+      33,
+      18,
+      9
     ],
-    "normalScore": "13679588",
-    "attackScore": "5401333",
-    "prediction": "Normal",
-    "correct": false
+    "normalScore": "84804536",
+    "attackScore": "146648687",
+    "prediction": "Attack",
+    "correct": true
   },
   {
     "sample_id": 16,
@@ -422,24 +422,24 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 0.0,
       "ct_state_ttl": 2.0,
       "ct_dst_src_ltm": 3.0,
-      "ct_srv_dst": 10.0,
-      "rate": 90909.0902
+      "ct_dst_sport_ltm": 3.0,
+      "ct_src_dport_ltm": 3.0,
+      "smean": 57.0
     },
     "x": [
       100,
-      0,
       33,
       7,
-      24,
-      9
+      17,
+      9,
+      5
     ],
-    "normalScore": "11444945",
-    "attackScore": "7635976",
-    "prediction": "Normal",
-    "correct": false
+    "normalScore": "88182004",
+    "attackScore": "143271219",
+    "prediction": "Attack",
+    "correct": true
   },
   {
     "sample_id": 17,
@@ -448,22 +448,22 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 31.0,
-      "dttl": 29.0,
       "ct_state_ttl": 0.0,
       "ct_dst_src_ltm": 6.0,
-      "ct_srv_dst": 14.0,
-      "rate": 2391.650913
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 6.0,
+      "smean": 96.0
     },
     "x": [
       12,
-      12,
       0,
       15,
-      34,
-      0
+      6,
+      18,
+      8
     ],
-    "normalScore": "15731561",
-    "attackScore": "3349360",
+    "normalScore": "147451045",
+    "attackScore": "84002178",
     "prediction": "Normal",
     "correct": true
   },
@@ -474,24 +474,24 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 252.0,
       "ct_state_ttl": 1.0,
       "ct_dst_src_ltm": 2.0,
-      "ct_srv_dst": 2.0,
-      "rate": 14.042663
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 59.0
     },
     "x": [
       100,
-      100,
       17,
       5,
-      5,
-      0
+      6,
+      3,
+      5
     ],
-    "normalScore": "7181177",
-    "attackScore": "11899744",
-    "prediction": "Attack",
-    "correct": false
+    "normalScore": "117047984",
+    "attackScore": "114405239",
+    "prediction": "Normal",
+    "correct": true
   },
   {
     "sample_id": 19,
@@ -500,24 +500,24 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 0.0,
       "ct_state_ttl": 2.0,
       "ct_dst_src_ltm": 2.0,
-      "ct_srv_dst": 9.0,
-      "rate": 125000.0003
+      "ct_dst_sport_ltm": 2.0,
+      "ct_src_dport_ltm": 2.0,
+      "smean": 100.0
     },
     "x": [
       100,
-      0,
       33,
       5,
-      22,
-      12
+      11,
+      6,
+      9
     ],
-    "normalScore": "11388020",
-    "attackScore": "7692901",
-    "prediction": "Normal",
-    "correct": false
+    "normalScore": "84676184",
+    "attackScore": "146777039",
+    "prediction": "Attack",
+    "correct": true
   },
   {
     "sample_id": 20,
@@ -526,24 +526,24 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 62.0,
-      "dttl": 252.0,
       "ct_state_ttl": 3.0,
       "ct_dst_src_ltm": 2.0,
-      "ct_srv_dst": 2.0,
-      "rate": 17.764379
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 2.0,
+      "smean": 166.0
     },
     "x": [
       24,
-      100,
       50,
       5,
-      5,
-      0
+      6,
+      6,
+      15
     ],
-    "normalScore": "7590254",
-    "attackScore": "11490667",
-    "prediction": "Attack",
-    "correct": false
+    "normalScore": "143906880",
+    "attackScore": "87546343",
+    "prediction": "Normal",
+    "correct": true
   },
   {
     "sample_id": 21,
@@ -552,24 +552,24 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 0.0,
       "ct_state_ttl": 2.0,
       "ct_dst_src_ltm": 3.0,
-      "ct_srv_dst": 9.0,
-      "rate": 142857.1409
+      "ct_dst_sport_ltm": 2.0,
+      "ct_src_dport_ltm": 2.0,
+      "smean": 100.0
     },
     "x": [
       100,
-      0,
       33,
       7,
-      22,
-      14
+      11,
+      6,
+      9
     ],
-    "normalScore": "10918452",
-    "attackScore": "8162469",
-    "prediction": "Normal",
-    "correct": false
+    "normalScore": "86297116",
+    "attackScore": "145156107",
+    "prediction": "Attack",
+    "correct": true
   },
   {
     "sample_id": 22,
@@ -578,22 +578,22 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 31.0,
-      "dttl": 29.0,
       "ct_state_ttl": 0.0,
       "ct_dst_src_ltm": 1.0,
-      "ct_srv_dst": 2.0,
-      "rate": 4309.745739
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 2.0,
+      "smean": 721.0
     },
     "x": [
       12,
-      12,
       0,
       2,
-      5,
-      0
+      6,
+      6,
+      63
     ],
-    "normalScore": "12758857",
-    "attackScore": "6322064",
+    "normalScore": "154296460",
+    "attackScore": "77156763",
     "prediction": "Normal",
     "correct": true
   },
@@ -604,22 +604,22 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 31.0,
-      "dttl": 29.0,
       "ct_state_ttl": 0.0,
       "ct_dst_src_ltm": 1.0,
-      "ct_srv_dst": 3.0,
-      "rate": 2775.208228
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 2.0,
+      "smean": 73.0
     },
     "x": [
       12,
-      12,
       0,
       2,
-      7,
-      0
+      6,
+      6,
+      6
     ],
-    "normalScore": "12952193",
-    "attackScore": "6128728",
+    "normalScore": "143737495",
+    "attackScore": "87715728",
     "prediction": "Normal",
     "correct": true
   },
@@ -630,22 +630,22 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 31.0,
-      "dttl": 29.0,
       "ct_state_ttl": 0.0,
       "ct_dst_src_ltm": 2.0,
-      "ct_srv_dst": 6.0,
-      "rate": 2509.314833
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 2.0,
+      "smean": 96.0
     },
     "x": [
       12,
-      12,
       0,
       5,
-      15,
-      0
+      6,
+      6,
+      8
     ],
-    "normalScore": "13676798",
-    "attackScore": "5404123",
+    "normalScore": "144441477",
+    "attackScore": "87011746",
     "prediction": "Normal",
     "correct": true
   },
@@ -656,22 +656,22 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 252.0,
       "ct_state_ttl": 1.0,
       "ct_dst_src_ltm": 1.0,
-      "ct_srv_dst": 1.0,
-      "rate": 21.460391
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 61.0
     },
     "x": [
       100,
-      100,
       17,
       2,
-      2,
-      0
+      6,
+      3,
+      5
     ],
-    "normalScore": "6153365",
-    "attackScore": "12927556",
+    "normalScore": "114622688",
+    "attackScore": "116830535",
     "prediction": "Attack",
     "correct": false
   },
@@ -682,22 +682,22 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 252.0,
       "ct_state_ttl": 1.0,
       "ct_dst_src_ltm": 1.0,
-      "ct_srv_dst": 1.0,
-      "rate": 17.398083
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 55.0
     },
     "x": [
       100,
-      100,
       17,
       2,
-      2,
-      0
+      6,
+      3,
+      5
     ],
-    "normalScore": "6153365",
-    "attackScore": "12927556",
+    "normalScore": "114622688",
+    "attackScore": "116830535",
     "prediction": "Attack",
     "correct": false
   },
@@ -708,22 +708,22 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 31.0,
-      "dttl": 29.0,
       "ct_state_ttl": 0.0,
       "ct_dst_src_ltm": 1.0,
-      "ct_srv_dst": 3.0,
-      "rate": 2887.391736
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 73.0
     },
     "x": [
       12,
-      12,
       0,
       2,
-      7,
-      0
+      6,
+      3,
+      6
     ],
-    "normalScore": "12952193",
-    "attackScore": "6128728",
+    "normalScore": "143561335",
+    "attackScore": "87891888",
     "prediction": "Normal",
     "correct": true
   },
@@ -734,22 +734,22 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 31.0,
-      "dttl": 29.0,
       "ct_state_ttl": 0.0,
       "ct_dst_src_ltm": 1.0,
-      "ct_srv_dst": 10.0,
-      "rate": 6672.664776
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 63.0
     },
     "x": [
       12,
-      12,
       0,
       2,
-      24,
-      1
+      6,
+      3,
+      6
     ],
-    "normalScore": "14886853",
-    "attackScore": "4194068",
+    "normalScore": "143561335",
+    "attackScore": "87891888",
     "prediction": "Normal",
     "correct": true
   },
@@ -760,22 +760,22 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 0.0,
       "ct_state_ttl": 2.0,
       "ct_dst_src_ltm": 17.0,
-      "ct_srv_dst": 17.0,
-      "rate": 333333.3215
+      "ct_dst_sport_ltm": 17.0,
+      "ct_src_dport_ltm": 17.0,
+      "smean": 57.0
     },
     "x": [
       100,
-      0,
       33,
       41,
-      41,
-      33
+      94,
+      50,
+      5
     ],
-    "normalScore": "5417102",
-    "attackScore": "13663819",
+    "normalScore": "66852560",
+    "attackScore": "164600663",
     "prediction": "Attack",
     "correct": true
   },
@@ -786,22 +786,22 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 0.0,
       "ct_state_ttl": 2.0,
       "ct_dst_src_ltm": 25.0,
-      "ct_srv_dst": 25.0,
-      "rate": 142857.1409
+      "ct_dst_sport_ltm": 25.0,
+      "ct_src_dport_ltm": 25.0,
+      "smean": 57.0
     },
     "x": [
       100,
-      0,
       33,
       61,
-      61,
-      14
+      100,
+      74,
+      5
     ],
-    "normalScore": "5502705",
-    "attackScore": "13578216",
+    "normalScore": "72264764",
+    "attackScore": "159188459",
     "prediction": "Attack",
     "correct": true
   },
@@ -812,24 +812,24 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 60.0,
       "ct_state_ttl": 0.0,
       "ct_dst_src_ltm": 1.0,
-      "ct_srv_dst": 1.0,
-      "rate": 15.489033
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 994.0
     },
     "x": [
       100,
-      24,
       0,
       2,
-      2,
-      0
+      6,
+      3,
+      87
     ],
-    "normalScore": "6295010",
-    "attackScore": "12785911",
-    "prediction": "Attack",
-    "correct": true
+    "normalScore": "198724576",
+    "attackScore": "32728647",
+    "prediction": "Normal",
+    "correct": false
   },
   {
     "sample_id": 32,
@@ -838,22 +838,22 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 0.0,
       "ct_state_ttl": 2.0,
       "ct_dst_src_ltm": 45.0,
-      "ct_srv_dst": 45.0,
-      "rate": 333333.3215
+      "ct_dst_sport_ltm": 18.0,
+      "ct_src_dport_ltm": 31.0,
+      "smean": 57.0
     },
     "x": [
       100,
-      0,
       33,
       100,
       100,
-      33
+      91,
+      5
     ],
-    "normalScore": "3132150",
-    "attackScore": "15948771",
+    "normalScore": "43518336",
+    "attackScore": "187934887",
     "prediction": "Attack",
     "correct": true
   },
@@ -864,24 +864,24 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 252.0,
       "ct_state_ttl": 1.0,
       "ct_dst_src_ltm": 4.0,
-      "ct_srv_dst": 4.0,
-      "rate": 19.608526
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 58.0
     },
     "x": [
       100,
-      100,
       17,
       10,
-      10,
-      0
+      6,
+      3,
+      5
     ],
-    "normalScore": "8901237",
-    "attackScore": "10179684",
-    "prediction": "Attack",
-    "correct": false
+    "normalScore": "120858704",
+    "attackScore": "110594519",
+    "prediction": "Normal",
+    "correct": true
   },
   {
     "sample_id": 34,
@@ -890,24 +890,24 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 252.0,
       "ct_state_ttl": 1.0,
       "ct_dst_src_ltm": 3.0,
-      "ct_srv_dst": 3.0,
-      "rate": 17.49063
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 2.0,
+      "smean": 53.0
     },
     "x": [
       100,
-      100,
       17,
       7,
-      7,
-      0
+      6,
+      6,
+      5
     ],
-    "normalScore": "7868145",
-    "attackScore": "11212776",
-    "prediction": "Attack",
-    "correct": false
+    "normalScore": "116605532",
+    "attackScore": "114847691",
+    "prediction": "Normal",
+    "correct": true
   },
   {
     "sample_id": 35,
@@ -916,24 +916,24 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 62.0,
-      "dttl": 252.0,
       "ct_state_ttl": 3.0,
       "ct_dst_src_ltm": 2.0,
-      "ct_srv_dst": 2.0,
-      "rate": 6.119422
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 163.0
     },
     "x": [
       24,
-      100,
       50,
       5,
-      5,
-      0
+      6,
+      3,
+      14
     ],
-    "normalScore": "7590254",
-    "attackScore": "11490667",
-    "prediction": "Attack",
-    "correct": false
+    "normalScore": "148041661",
+    "attackScore": "83411562",
+    "prediction": "Normal",
+    "correct": true
   },
   {
     "sample_id": 36,
@@ -942,22 +942,22 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 0.0,
       "ct_state_ttl": 2.0,
       "ct_dst_src_ltm": 32.0,
-      "ct_srv_dst": 32.0,
-      "rate": 111111.1072
+      "ct_dst_sport_ltm": 25.0,
+      "ct_src_dport_ltm": 25.0,
+      "smean": 57.0
     },
     "x": [
       100,
-      0,
       33,
       78,
-      78,
-      11
+      100,
+      74,
+      5
     ],
-    "normalScore": "4984242",
-    "attackScore": "14096679",
+    "normalScore": "49780360",
+    "attackScore": "181672863",
     "prediction": "Attack",
     "correct": true
   },
@@ -968,22 +968,22 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 31.0,
-      "dttl": 29.0,
       "ct_state_ttl": 0.0,
       "ct_dst_src_ltm": 1.0,
-      "ct_srv_dst": 2.0,
-      "rate": 2767.527704
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 73.0
     },
     "x": [
       12,
-      12,
       0,
       2,
-      5,
-      0
+      6,
+      3,
+      6
     ],
-    "normalScore": "12758857",
-    "attackScore": "6322064",
+    "normalScore": "143561335",
+    "attackScore": "87891888",
     "prediction": "Normal",
     "correct": true
   },
@@ -994,22 +994,22 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 0.0,
       "ct_state_ttl": 6.0,
       "ct_dst_src_ltm": 18.0,
-      "ct_srv_dst": 17.0,
-      "rate": 1.130046
+      "ct_dst_sport_ltm": 2.0,
+      "ct_src_dport_ltm": 2.0,
+      "smean": 45.0
     },
     "x": [
       100,
-      0,
       100,
       44,
-      41,
-      0
+      11,
+      6,
+      4
     ],
-    "normalScore": "12749065",
-    "attackScore": "6331856",
+    "normalScore": "163511705",
+    "attackScore": "67941518",
     "prediction": "Normal",
     "correct": true
   },
@@ -1020,22 +1020,22 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 31.0,
-      "dttl": 29.0,
       "ct_state_ttl": 0.0,
       "ct_dst_src_ltm": 3.0,
-      "ct_srv_dst": 16.0,
-      "rate": 1496.685913
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 142.0
     },
     "x": [
       12,
-      12,
       0,
       7,
-      39,
-      0
+      6,
+      3,
+      12
     ],
-    "normalScore": "16787626",
-    "attackScore": "2293295",
+    "normalScore": "145429657",
+    "attackScore": "86023566",
     "prediction": "Normal",
     "correct": true
   },
@@ -1046,22 +1046,22 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 0.0,
       "ct_state_ttl": 2.0,
       "ct_dst_src_ltm": 1.0,
-      "ct_srv_dst": 1.0,
-      "rate": 0.673445
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 64.0
     },
     "x": [
       100,
-      0,
       33,
       2,
-      2,
-      0
+      6,
+      3,
+      6
     ],
-    "normalScore": "9379229",
-    "attackScore": "9701692",
+    "normalScore": "87454999",
+    "attackScore": "143998224",
     "prediction": "Attack",
     "correct": true
   },
@@ -1072,22 +1072,22 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 0.0,
       "ct_state_ttl": 2.0,
       "ct_dst_src_ltm": 22.0,
-      "ct_srv_dst": 22.0,
-      "rate": 333333.3215
+      "ct_dst_sport_ltm": 5.0,
+      "ct_src_dport_ltm": 5.0,
+      "smean": 57.0
     },
     "x": [
       100,
-      0,
       33,
       54,
-      54,
-      33
+      28,
+      15,
+      5
     ],
-    "normalScore": "4808390",
-    "attackScore": "14272531",
+    "normalScore": "94574420",
+    "attackScore": "136878803",
     "prediction": "Attack",
     "correct": true
   },
@@ -1098,22 +1098,22 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 252.0,
       "ct_state_ttl": 1.0,
       "ct_dst_src_ltm": 1.0,
-      "ct_srv_dst": 1.0,
-      "rate": 23.74626
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 964.0
     },
     "x": [
       100,
-      100,
       17,
       2,
-      2,
-      0
+      6,
+      3,
+      85
     ],
-    "normalScore": "6153365",
-    "attackScore": "12927556",
+    "normalScore": "86601568",
+    "attackScore": "144851655",
     "prediction": "Attack",
     "correct": true
   },
@@ -1124,22 +1124,22 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 0.0,
       "ct_state_ttl": 2.0,
       "ct_dst_src_ltm": 7.0,
-      "ct_srv_dst": 7.0,
-      "rate": 500000.0013
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 100.0
     },
     "x": [
       100,
-      0,
       33,
       17,
-      17,
-      50
+      6,
+      3,
+      9
     ],
-    "normalScore": "5773369",
-    "attackScore": "13307552",
+    "normalScore": "96501088",
+    "attackScore": "134952135",
     "prediction": "Attack",
     "correct": true
   },
@@ -1150,24 +1150,24 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 62.0,
-      "dttl": 252.0,
       "ct_state_ttl": 1.0,
       "ct_dst_src_ltm": 1.0,
-      "ct_srv_dst": 1.0,
-      "rate": 100.954295
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 96.0
     },
     "x": [
       24,
-      100,
       17,
       2,
-      2,
-      0
+      6,
+      3,
+      8
     ],
-    "normalScore": "7995149",
-    "attackScore": "11085772",
-    "prediction": "Attack",
-    "correct": true
+    "normalScore": "134015743",
+    "attackScore": "97437480",
+    "prediction": "Normal",
+    "correct": false
   },
   {
     "sample_id": 45,
@@ -1176,22 +1176,22 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 252.0,
       "ct_state_ttl": 1.0,
       "ct_dst_src_ltm": 1.0,
-      "ct_srv_dst": 1.0,
-      "rate": 27.568687
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 583.0
     },
     "x": [
       100,
-      100,
       17,
       2,
-      2,
-      0
+      6,
+      3,
+      51
     ],
-    "normalScore": "6153365",
-    "attackScore": "12927556",
+    "normalScore": "97361004",
+    "attackScore": "134092219",
     "prediction": "Attack",
     "correct": true
   },
@@ -1202,22 +1202,22 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 252.0,
       "ct_state_ttl": 1.0,
       "ct_dst_src_ltm": 2.0,
-      "ct_srv_dst": 3.0,
-      "rate": 32.374613
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 2.0,
+      "smean": 153.0
     },
     "x": [
       100,
-      100,
       17,
       5,
-      7,
-      0
+      6,
+      6,
+      13
     ],
-    "normalScore": "8507205",
-    "attackScore": "10573716",
+    "normalScore": "112339432",
+    "attackScore": "119113791",
     "prediction": "Attack",
     "correct": false
   },
@@ -1228,22 +1228,22 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 31.0,
-      "dttl": 29.0,
       "ct_state_ttl": 0.0,
       "ct_dst_src_ltm": 1.0,
-      "ct_srv_dst": 2.0,
-      "rate": 3210.549876
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 715.0
     },
     "x": [
       12,
-      12,
       0,
       2,
-      5,
-      0
+      6,
+      3,
+      63
     ],
-    "normalScore": "12758857",
-    "attackScore": "6322064",
+    "normalScore": "153662704",
+    "attackScore": "77790519",
     "prediction": "Normal",
     "correct": true
   },
@@ -1254,22 +1254,22 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 62.0,
-      "dttl": 252.0,
       "ct_state_ttl": 1.0,
       "ct_dst_src_ltm": 2.0,
-      "ct_srv_dst": 4.0,
-      "rate": 15.823964
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 46.0
     },
     "x": [
       24,
-      100,
       17,
       5,
-      10,
-      0
+      6,
+      3,
+      4
     ],
-    "normalScore": "11905276",
-    "attackScore": "7175645",
+    "normalScore": "137269733",
+    "attackScore": "94183490",
     "prediction": "Normal",
     "correct": false
   },
@@ -1280,22 +1280,22 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 0.0,
       "ct_state_ttl": 2.0,
       "ct_dst_src_ltm": 22.0,
-      "ct_srv_dst": 22.0,
-      "rate": 111111.1072
+      "ct_dst_sport_ltm": 22.0,
+      "ct_src_dport_ltm": 22.0,
+      "smean": 57.0
     },
     "x": [
       100,
-      0,
       33,
       54,
-      54,
-      11
+      100,
+      65,
+      5
     ],
-    "normalScore": "5966514",
-    "attackScore": "13114407",
+    "normalScore": "67532500",
+    "attackScore": "163920723",
     "prediction": "Attack",
     "correct": true
   },
@@ -1306,22 +1306,22 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 31.0,
-      "dttl": 29.0,
       "ct_state_ttl": 0.0,
       "ct_dst_src_ltm": 2.0,
-      "ct_srv_dst": 2.0,
-      "rate": 598.75805
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 62.0
     },
     "x": [
       12,
-      12,
       0,
       5,
-      5,
-      0
+      6,
+      3,
+      5
     ],
-    "normalScore": "12617338",
-    "attackScore": "6463583",
+    "normalScore": "143691888",
+    "attackScore": "87761335",
     "prediction": "Normal",
     "correct": true
   },
@@ -1332,24 +1332,24 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 0.0,
       "ct_state_ttl": 2.0,
       "ct_dst_src_ltm": 1.0,
-      "ct_srv_dst": 2.0,
-      "rate": 0.761688
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 108.0
     },
     "x": [
       100,
-      0,
       33,
       2,
-      5,
-      0
+      6,
+      3,
+      9
     ],
-    "normalScore": "9777896",
-    "attackScore": "9303025",
-    "prediction": "Normal",
-    "correct": false
+    "normalScore": "83858608",
+    "attackScore": "147594615",
+    "prediction": "Attack",
+    "correct": true
   },
   {
     "sample_id": 52,
@@ -1358,22 +1358,22 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 31.0,
-      "dttl": 29.0,
       "ct_state_ttl": 0.0,
       "ct_dst_src_ltm": 4.0,
-      "ct_srv_dst": 5.0,
-      "rate": 3638.253672
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 132.0
     },
     "x": [
       12,
-      12,
       0,
       10,
-      12,
-      0
+      6,
+      3,
+      12
     ],
-    "normalScore": "13079446",
-    "attackScore": "6001475",
+    "normalScore": "145908751",
+    "attackScore": "85544472",
     "prediction": "Normal",
     "correct": true
   },
@@ -1384,22 +1384,22 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 252.0,
       "ct_state_ttl": 1.0,
       "ct_dst_src_ltm": 1.0,
-      "ct_srv_dst": 1.0,
-      "rate": 6.229083
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 2.0,
+      "smean": 872.0
     },
     "x": [
       100,
-      100,
       17,
       2,
-      2,
-      0
+      6,
+      6,
+      77
     ],
-    "normalScore": "6153365",
-    "attackScore": "12927556",
+    "normalScore": "87585020",
+    "attackScore": "143868203",
     "prediction": "Attack",
     "correct": true
   },
@@ -1410,22 +1410,22 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 0.0,
       "ct_state_ttl": 2.0,
       "ct_dst_src_ltm": 25.0,
-      "ct_srv_dst": 25.0,
-      "rate": 125000.0003
+      "ct_dst_sport_ltm": 25.0,
+      "ct_src_dport_ltm": 25.0,
+      "smean": 57.0
     },
     "x": [
       100,
-      0,
       33,
       61,
-      61,
-      12
+      100,
+      74,
+      5
     ],
-    "normalScore": "5606985",
-    "attackScore": "13473936",
+    "normalScore": "72264764",
+    "attackScore": "159188459",
     "prediction": "Attack",
     "correct": true
   },
@@ -1436,24 +1436,24 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 0.0,
       "ct_state_ttl": 2.0,
       "ct_dst_src_ltm": 3.0,
-      "ct_srv_dst": 15.0,
-      "rate": 500000.0013
+      "ct_dst_sport_ltm": 2.0,
+      "ct_src_dport_ltm": 2.0,
+      "smean": 100.0
     },
     "x": [
       100,
-      0,
       33,
       7,
-      37,
-      50
+      11,
+      6,
+      9
     ],
-    "normalScore": "13341069",
-    "attackScore": "5739852",
-    "prediction": "Normal",
-    "correct": false
+    "normalScore": "86297116",
+    "attackScore": "145156107",
+    "prediction": "Attack",
+    "correct": true
   },
   {
     "sample_id": 56,
@@ -1462,22 +1462,22 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 31.0,
-      "dttl": 29.0,
       "ct_state_ttl": 0.0,
       "ct_dst_src_ltm": 6.0,
-      "ct_srv_dst": 22.0,
-      "rate": 245.973952
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 6.0,
+      "smean": 61.0
     },
     "x": [
       12,
-      12,
       0,
       15,
-      54,
-      0
+      6,
+      18,
+      5
     ],
-    "normalScore": "19079921",
-    "attackScore": "1000",
+    "normalScore": "146202748",
+    "attackScore": "85250475",
     "prediction": "Normal",
     "correct": true
   },
@@ -1488,22 +1488,22 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 252.0,
       "ct_state_ttl": 1.0,
       "ct_dst_src_ltm": 10.0,
-      "ct_srv_dst": 10.0,
-      "rate": 32.048986
+      "ct_dst_sport_ltm": 2.0,
+      "ct_src_dport_ltm": 3.0,
+      "smean": 53.0
     },
     "x": [
       100,
-      100,
       17,
       24,
-      24,
-      0
+      11,
+      9,
+      5
     ],
-    "normalScore": "13764221",
-    "attackScore": "5316700",
+    "normalScore": "125597200",
+    "attackScore": "105856023",
     "prediction": "Normal",
     "correct": true
   },
@@ -1514,22 +1514,22 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 31.0,
-      "dttl": 29.0,
       "ct_state_ttl": 0.0,
       "ct_dst_src_ltm": 1.0,
-      "ct_srv_dst": 4.0,
-      "rate": 2712.477299
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 73.0
     },
     "x": [
       12,
-      12,
       0,
       2,
-      10,
-      0
+      6,
+      3,
+      6
     ],
-    "normalScore": "13253282",
-    "attackScore": "5827639",
+    "normalScore": "143561335",
+    "attackScore": "87891888",
     "prediction": "Normal",
     "correct": true
   },
@@ -1540,22 +1540,22 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 31.0,
-      "dttl": 29.0,
       "ct_state_ttl": 0.0,
       "ct_dst_src_ltm": 1.0,
-      "ct_srv_dst": 2.0,
-      "rate": 3006.011927
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 73.0
     },
     "x": [
       12,
-      12,
       0,
       2,
-      5,
-      0
+      6,
+      3,
+      6
     ],
-    "normalScore": "12758857",
-    "attackScore": "6322064",
+    "normalScore": "143561335",
+    "attackScore": "87891888",
     "prediction": "Normal",
     "correct": true
   },
@@ -1566,22 +1566,22 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 31.0,
-      "dttl": 29.0,
       "ct_state_ttl": 0.0,
       "ct_dst_src_ltm": 7.0,
-      "ct_srv_dst": 1.0,
-      "rate": 10.842669
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 56.0
     },
     "x": [
       12,
-      12,
       0,
       17,
-      2,
-      0
+      6,
+      3,
+      5
     ],
-    "normalScore": "11418553",
-    "attackScore": "7662368",
+    "normalScore": "143710968",
+    "attackScore": "87742255",
     "prediction": "Normal",
     "correct": true
   },
@@ -1592,22 +1592,22 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 0.0,
       "ct_state_ttl": 2.0,
       "ct_dst_src_ltm": 4.0,
-      "ct_srv_dst": 6.0,
-      "rate": 90909.0902
+      "ct_dst_sport_ltm": 4.0,
+      "ct_src_dport_ltm": 4.0,
+      "smean": 57.0
     },
     "x": [
       100,
-      0,
       33,
       10,
-      15,
-      9
+      22,
+      12,
+      5
     ],
-    "normalScore": "9236825",
-    "attackScore": "9844096",
+    "normalScore": "87995708",
+    "attackScore": "143457515",
     "prediction": "Attack",
     "correct": true
   },
@@ -1618,24 +1618,24 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 62.0,
-      "dttl": 252.0,
       "ct_state_ttl": 3.0,
       "ct_dst_src_ltm": 3.0,
-      "ct_srv_dst": 3.0,
-      "rate": 28.010308
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 2.0,
+      "smean": 166.0
     },
     "x": [
       24,
-      100,
       50,
       7,
-      7,
-      0
+      6,
+      6,
+      15
     ],
-    "normalScore": "8508302",
-    "attackScore": "10572619",
-    "prediction": "Attack",
-    "correct": false
+    "normalScore": "144758884",
+    "attackScore": "86694339",
+    "prediction": "Normal",
+    "correct": true
   },
   {
     "sample_id": 63,
@@ -1644,22 +1644,22 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 31.0,
-      "dttl": 29.0,
       "ct_state_ttl": 0.0,
       "ct_dst_src_ltm": 3.0,
-      "ct_srv_dst": 12.0,
-      "rate": 1915.184735
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 128.0
     },
     "x": [
       12,
-      12,
       0,
       7,
-      29,
-      0
+      6,
+      3,
+      11
     ],
-    "normalScore": "15351006",
-    "attackScore": "3729915",
+    "normalScore": "145193980",
+    "attackScore": "86259243",
     "prediction": "Normal",
     "correct": true
   },
@@ -1670,22 +1670,22 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 0.0,
       "ct_state_ttl": 2.0,
       "ct_dst_src_ltm": 8.0,
-      "ct_srv_dst": 8.0,
-      "rate": 125000.0003
+      "ct_dst_sport_ltm": 6.0,
+      "ct_src_dport_ltm": 6.0,
+      "smean": 100.0
     },
     "x": [
       100,
-      0,
       33,
       20,
-      20,
-      12
+      33,
+      18,
+      9
     ],
-    "normalScore": "7651901",
-    "attackScore": "11429020",
+    "normalScore": "86599636",
+    "attackScore": "144853587",
     "prediction": "Attack",
     "correct": true
   },
@@ -1696,24 +1696,24 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 0.0,
       "ct_state_ttl": 2.0,
       "ct_dst_src_ltm": 1.0,
-      "ct_srv_dst": 3.0,
-      "rate": 83333.33039
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 839.0
     },
     "x": [
       100,
-      0,
       33,
       2,
-      7,
-      8
+      6,
+      3,
+      74
     ],
-    "normalScore": "9676616",
-    "attackScore": "9404305",
-    "prediction": "Normal",
-    "correct": false
+    "normalScore": "9185503",
+    "attackScore": "222267720",
+    "prediction": "Attack",
+    "correct": true
   },
   {
     "sample_id": 66,
@@ -1722,22 +1722,22 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 0.0,
       "ct_state_ttl": 2.0,
       "ct_dst_src_ltm": 7.0,
-      "ct_srv_dst": 7.0,
-      "rate": 200000.0051
+      "ct_dst_sport_ltm": 4.0,
+      "ct_src_dport_ltm": 4.0,
+      "smean": 100.0
     },
     "x": [
       100,
-      0,
       33,
       17,
-      17,
-      20
+      22,
+      12,
+      9
     ],
-    "normalScore": "7396969",
-    "attackScore": "11683952",
+    "normalScore": "89011056",
+    "attackScore": "142442167",
     "prediction": "Attack",
     "correct": true
   },
@@ -1748,24 +1748,24 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 62.0,
-      "dttl": 252.0,
       "ct_state_ttl": 1.0,
       "ct_dst_src_ltm": 2.0,
-      "ct_srv_dst": 2.0,
-      "rate": 18.960448
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 81.0
     },
     "x": [
       24,
-      100,
       17,
       5,
-      5,
-      0
+      6,
+      3,
+      7
     ],
-    "normalScore": "9264641",
-    "attackScore": "9816280",
-    "prediction": "Attack",
-    "correct": false
+    "normalScore": "135433352",
+    "attackScore": "96019871",
+    "prediction": "Normal",
+    "correct": true
   },
   {
     "sample_id": 68,
@@ -1774,22 +1774,22 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 31.0,
-      "dttl": 29.0,
       "ct_state_ttl": 0.0,
       "ct_dst_src_ltm": 6.0,
-      "ct_srv_dst": 14.0,
-      "rate": 159.742094
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 6.0,
+      "smean": 96.0
     },
     "x": [
       12,
-      12,
       0,
       15,
-      34,
-      0
+      6,
+      18,
+      8
     ],
-    "normalScore": "15731561",
-    "attackScore": "3349360",
+    "normalScore": "147451045",
+    "attackScore": "84002178",
     "prediction": "Normal",
     "correct": true
   },
@@ -1800,24 +1800,24 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 0.0,
       "ct_state_ttl": 2.0,
       "ct_dst_src_ltm": 37.0,
-      "ct_srv_dst": 37.0,
-      "rate": 100000.0025
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 8.0,
+      "smean": 998.0
     },
     "x": [
       100,
-      0,
       33,
       90,
-      90,
-      10
+      6,
+      24,
+      88
     ],
-    "normalScore": "4620381",
-    "attackScore": "14460540",
-    "prediction": "Attack",
-    "correct": true
+    "normalScore": "146270967",
+    "attackScore": "85182256",
+    "prediction": "Normal",
+    "correct": false
   },
   {
     "sample_id": 70,
@@ -1826,22 +1826,22 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 31.0,
-      "dttl": 29.0,
       "ct_state_ttl": 0.0,
       "ct_dst_src_ltm": 1.0,
-      "ct_srv_dst": 1.0,
-      "rate": 455.957925
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 106.0
     },
     "x": [
       12,
-      12,
       0,
       2,
-      2,
-      0
+      6,
+      3,
+      9
     ],
-    "normalScore": "12479938",
-    "attackScore": "6600983",
+    "normalScore": "143973916",
+    "attackScore": "87479307",
     "prediction": "Normal",
     "correct": true
   },
@@ -1852,22 +1852,22 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 0.0,
       "ct_state_ttl": 2.0,
       "ct_dst_src_ltm": 30.0,
-      "ct_srv_dst": 30.0,
-      "rate": 333333.3215
+      "ct_dst_sport_ltm": 12.0,
+      "ct_src_dport_ltm": 30.0,
+      "smean": 57.0
     },
     "x": [
       100,
-      0,
       33,
       73,
-      73,
-      33
+      67,
+      88,
+      5
     ],
-    "normalScore": "4025742",
-    "attackScore": "15055179",
+    "normalScore": "98269104",
+    "attackScore": "133184119",
     "prediction": "Attack",
     "correct": true
   },
@@ -1878,24 +1878,24 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 62.0,
-      "dttl": 252.0,
       "ct_state_ttl": 1.0,
       "ct_dst_src_ltm": 1.0,
-      "ct_srv_dst": 1.0,
-      "rate": 95.23436
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 80.0
     },
     "x": [
       24,
-      100,
       17,
       2,
-      2,
-      0
+      6,
+      3,
+      7
     ],
-    "normalScore": "7995149",
-    "attackScore": "11085772",
-    "prediction": "Attack",
-    "correct": true
+    "normalScore": "134680292",
+    "attackScore": "96772931",
+    "prediction": "Normal",
+    "correct": false
   },
   {
     "sample_id": 73,
@@ -1904,22 +1904,22 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 252.0,
       "ct_state_ttl": 1.0,
       "ct_dst_src_ltm": 5.0,
-      "ct_srv_dst": 5.0,
-      "rate": 25.612439
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 53.0
     },
     "x": [
       100,
-      100,
       17,
       12,
-      12,
-      0
+      6,
+      3,
+      5
     ],
-    "normalScore": "9591725",
-    "attackScore": "9489196",
+    "normalScore": "122301988",
+    "attackScore": "109151235",
     "prediction": "Normal",
     "correct": true
   },
@@ -1930,22 +1930,22 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 31.0,
-      "dttl": 29.0,
       "ct_state_ttl": 0.0,
       "ct_dst_src_ltm": 3.0,
-      "ct_srv_dst": 6.0,
-      "rate": 84.944296
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 53.0
     },
     "x": [
       12,
-      12,
       0,
       7,
-      15,
-      0
+      6,
+      3,
+      5
     ],
-    "normalScore": "13588042",
-    "attackScore": "5492879",
+    "normalScore": "143810788",
+    "attackScore": "87642435",
     "prediction": "Normal",
     "correct": true
   },
@@ -1956,22 +1956,22 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 252.0,
       "ct_state_ttl": 1.0,
       "ct_dst_src_ltm": 3.0,
-      "ct_srv_dst": 3.0,
-      "rate": 78.703821
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 1134.0
     },
     "x": [
       100,
-      100,
       17,
       7,
-      7,
-      0
+      6,
+      3,
+      100
     ],
-    "normalScore": "7868145",
-    "attackScore": "11212776",
+    "normalScore": "95144933",
+    "attackScore": "136308290",
     "prediction": "Attack",
     "correct": false
   },
@@ -1982,22 +1982,22 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 252.0,
       "ct_state_ttl": 1.0,
       "ct_dst_src_ltm": 1.0,
-      "ct_srv_dst": 1.0,
-      "rate": 50.017139
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 170.0
     },
     "x": [
       100,
-      100,
       17,
       2,
-      2,
-      0
+      6,
+      3,
+      15
     ],
-    "normalScore": "6153365",
-    "attackScore": "12927556",
+    "normalScore": "110605548",
+    "attackScore": "120847675",
     "prediction": "Attack",
     "correct": true
   },
@@ -2008,22 +2008,22 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 31.0,
-      "dttl": 29.0,
       "ct_state_ttl": 0.0,
       "ct_dst_src_ltm": 1.0,
-      "ct_srv_dst": 6.0,
-      "rate": 563.663677
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 62.0
     },
     "x": [
       12,
-      12,
       0,
       2,
-      15,
-      0
+      6,
+      3,
+      5
     ],
-    "normalScore": "13784657",
-    "attackScore": "5296264",
+    "normalScore": "143426748",
+    "attackScore": "88026475",
     "prediction": "Normal",
     "correct": true
   },
@@ -2034,22 +2034,22 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 0.0,
       "ct_state_ttl": 2.0,
       "ct_dst_src_ltm": 43.0,
-      "ct_srv_dst": 42.0,
-      "rate": 166666.6608
+      "ct_dst_sport_ltm": 15.0,
+      "ct_src_dport_ltm": 26.0,
+      "smean": 57.0
     },
     "x": [
       100,
-      0,
       33,
       100,
-      100,
-      17
+      83,
+      76,
+      5
     ],
-    "normalScore": "3955446",
-    "attackScore": "15125475",
+    "normalScore": "37635992",
+    "attackScore": "193817231",
     "prediction": "Attack",
     "correct": true
   },
@@ -2060,22 +2060,22 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 252.0,
       "ct_state_ttl": 1.0,
       "ct_dst_src_ltm": 7.0,
-      "ct_srv_dst": 6.0,
-      "rate": 21.559963
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 55.0
     },
     "x": [
       100,
-      100,
       17,
       17,
-      15,
-      0
+      6,
+      3,
+      5
     ],
-    "normalScore": "9941589",
-    "attackScore": "9139332",
+    "normalScore": "125707688",
+    "attackScore": "105745535",
     "prediction": "Normal",
     "correct": true
   },
@@ -2086,22 +2086,22 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 31.0,
-      "dttl": 29.0,
       "ct_state_ttl": 0.0,
       "ct_dst_src_ltm": 3.0,
-      "ct_srv_dst": 6.0,
-      "rate": 4204.204232
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 128.0
     },
     "x": [
       12,
-      12,
       0,
       7,
-      15,
-      0
+      6,
+      3,
+      11
     ],
-    "normalScore": "13588042",
-    "attackScore": "5492879",
+    "normalScore": "145193980",
+    "attackScore": "86259243",
     "prediction": "Normal",
     "correct": true
   },
@@ -2112,24 +2112,24 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 252.0,
       "ct_state_ttl": 1.0,
       "ct_dst_src_ltm": 4.0,
-      "ct_srv_dst": 4.0,
-      "rate": 17.292302
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 151.0
     },
     "x": [
       100,
-      100,
       17,
       10,
-      10,
-      0
+      6,
+      3,
+      13
     ],
-    "normalScore": "8901237",
-    "attackScore": "10179684",
-    "prediction": "Attack",
-    "correct": false
+    "normalScore": "118814288",
+    "attackScore": "112638935",
+    "prediction": "Normal",
+    "correct": true
   },
   {
     "sample_id": 82,
@@ -2138,22 +2138,22 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 0.0,
       "ct_state_ttl": 2.0,
       "ct_dst_src_ltm": 1.0,
-      "ct_srv_dst": 3.0,
-      "rate": 500000.0013
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 84.0
     },
     "x": [
       100,
-      0,
       33,
       2,
-      7,
-      50
+      6,
+      3,
+      7
     ],
-    "normalScore": "7675064",
-    "attackScore": "11405857",
+    "normalScore": "86254732",
+    "attackScore": "145198491",
     "prediction": "Attack",
     "correct": true
   },
@@ -2164,24 +2164,24 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 62.0,
-      "dttl": 252.0,
       "ct_state_ttl": 1.0,
       "ct_dst_src_ltm": 2.0,
-      "ct_srv_dst": 1.0,
-      "rate": 22.179869
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 54.0
     },
     "x": [
       24,
-      100,
       17,
       5,
-      2,
-      0
+      6,
+      3,
+      5
     ],
-    "normalScore": "7697996",
-    "attackScore": "11382925",
-    "prediction": "Attack",
-    "correct": true
+    "normalScore": "136656136",
+    "attackScore": "94797087",
+    "prediction": "Normal",
+    "correct": false
   },
   {
     "sample_id": 84,
@@ -2190,22 +2190,22 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 0.0,
       "ct_state_ttl": 2.0,
       "ct_dst_src_ltm": 4.0,
-      "ct_srv_dst": 7.0,
-      "rate": 200000.0051
+      "ct_dst_sport_ltm": 4.0,
+      "ct_src_dport_ltm": 4.0,
+      "smean": 57.0
     },
     "x": [
       100,
-      0,
       33,
       10,
-      17,
-      20
+      22,
+      12,
+      5
     ],
-    "normalScore": "9094616",
-    "attackScore": "9986305",
+    "normalScore": "87995708",
+    "attackScore": "143457515",
     "prediction": "Attack",
     "correct": true
   },
@@ -2216,22 +2216,22 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 252.0,
       "ct_state_ttl": 1.0,
       "ct_dst_src_ltm": 2.0,
-      "ct_srv_dst": 2.0,
-      "rate": 57.09785
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 1137.0
     },
     "x": [
       100,
-      100,
       17,
       5,
-      5,
-      0
+      6,
+      3,
+      100
     ],
-    "normalScore": "7181177",
-    "attackScore": "11899744",
+    "normalScore": "90079669",
+    "attackScore": "141373554",
     "prediction": "Attack",
     "correct": false
   },
@@ -2242,24 +2242,24 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 252.0,
       "ct_state_ttl": 1.0,
       "ct_dst_src_ltm": 2.0,
-      "ct_srv_dst": 2.0,
-      "rate": 23.087851
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 51.0
     },
     "x": [
       100,
-      100,
       17,
       5,
-      5,
-      0
+      6,
+      3,
+      4
     ],
-    "normalScore": "7181177",
-    "attackScore": "11899744",
-    "prediction": "Attack",
-    "correct": true
+    "normalScore": "117402421",
+    "attackScore": "114050802",
+    "prediction": "Normal",
+    "correct": false
   },
   {
     "sample_id": 87,
@@ -2268,22 +2268,22 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 252.0,
       "ct_state_ttl": 1.0,
       "ct_dst_src_ltm": 5.0,
-      "ct_srv_dst": 10.0,
-      "rate": 28.636173
+      "ct_dst_sport_ltm": 2.0,
+      "ct_src_dport_ltm": 5.0,
+      "smean": 53.0
     },
     "x": [
       100,
-      100,
       17,
       12,
-      24,
-      0
+      11,
+      15,
+      5
     ],
-    "normalScore": "17854973",
-    "attackScore": "1225948",
+    "normalScore": "116073904",
+    "attackScore": "115379319",
     "prediction": "Normal",
     "correct": false
   },
@@ -2294,22 +2294,22 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 62.0,
-      "dttl": 252.0,
       "ct_state_ttl": 3.0,
       "ct_dst_src_ltm": 5.0,
-      "ct_srv_dst": 5.0,
-      "rate": 17.30108
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 2.0,
+      "smean": 169.0
     },
     "x": [
       24,
-      100,
       50,
       12,
-      12,
-      0
+      6,
+      6,
+      15
     ],
-    "normalScore": "10809582",
-    "attackScore": "8271339",
+    "normalScore": "146686384",
+    "attackScore": "84766839",
     "prediction": "Normal",
     "correct": true
   },
@@ -2320,24 +2320,24 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 62.0,
-      "dttl": 252.0,
       "ct_state_ttl": 3.0,
       "ct_dst_src_ltm": 4.0,
-      "ct_srv_dst": 2.0,
-      "rate": 3.136591
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 166.0
     },
     "x": [
       24,
-      100,
       50,
       10,
-      5,
-      0
+      6,
+      3,
+      15
     ],
-    "normalScore": "7516989",
-    "attackScore": "11563932",
-    "prediction": "Attack",
-    "correct": false
+    "normalScore": "147877720",
+    "attackScore": "83575503",
+    "prediction": "Normal",
+    "correct": true
   },
   {
     "sample_id": 90,
@@ -2346,22 +2346,22 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 0.0,
       "ct_state_ttl": 2.0,
       "ct_dst_src_ltm": 3.0,
-      "ct_srv_dst": 9.0,
-      "rate": 1000000.003
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 52.0
     },
     "x": [
       100,
-      0,
       33,
       7,
-      22,
-      100
+      6,
+      3,
+      5
     ],
-    "normalScore": "7899164",
-    "attackScore": "11181757",
+    "normalScore": "92791116",
+    "attackScore": "138662107",
     "prediction": "Attack",
     "correct": false
   },
@@ -2372,22 +2372,22 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 62.0,
-      "dttl": 252.0,
       "ct_state_ttl": 1.0,
       "ct_dst_src_ltm": 2.0,
-      "ct_srv_dst": 5.0,
-      "rate": 25.166191
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 53.0
     },
     "x": [
       24,
-      100,
       17,
       5,
-      12,
-      0
+      6,
+      3,
+      5
     ],
-    "normalScore": "12971876",
-    "attackScore": "6109045",
+    "normalScore": "136656136",
+    "attackScore": "94797087",
     "prediction": "Normal",
     "correct": false
   },
@@ -2398,22 +2398,22 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 0.0,
       "ct_state_ttl": 2.0,
       "ct_dst_src_ltm": 30.0,
-      "ct_srv_dst": 30.0,
-      "rate": 333333.3215
+      "ct_dst_sport_ltm": 12.0,
+      "ct_src_dport_ltm": 30.0,
+      "smean": 57.0
     },
     "x": [
       100,
-      0,
       33,
       73,
-      73,
-      33
+      67,
+      88,
+      5
     ],
-    "normalScore": "4025742",
-    "attackScore": "15055179",
+    "normalScore": "98269104",
+    "attackScore": "133184119",
     "prediction": "Attack",
     "correct": true
   },
@@ -2424,24 +2424,24 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 0.0,
       "ct_state_ttl": 2.0,
       "ct_dst_src_ltm": 7.0,
-      "ct_srv_dst": 12.0,
-      "rate": 90909.0902
+      "ct_dst_sport_ltm": 4.0,
+      "ct_src_dport_ltm": 7.0,
+      "smean": 57.0
     },
     "x": [
       100,
-      0,
       33,
       17,
-      29,
-      9
+      22,
+      21,
+      5
     ],
-    "normalScore": "10271390",
-    "attackScore": "8809531",
-    "prediction": "Normal",
-    "correct": false
+    "normalScore": "87272368",
+    "attackScore": "144180855",
+    "prediction": "Attack",
+    "correct": true
   },
   {
     "sample_id": 94,
@@ -2450,22 +2450,22 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 252.0,
       "ct_state_ttl": 1.0,
       "ct_dst_src_ltm": 1.0,
-      "ct_srv_dst": 1.0,
-      "rate": 10.459041
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 53.0
     },
     "x": [
       100,
-      100,
       17,
       2,
-      2,
-      0
+      6,
+      3,
+      5
     ],
-    "normalScore": "6153365",
-    "attackScore": "12927556",
+    "normalScore": "114622688",
+    "attackScore": "116830535",
     "prediction": "Attack",
     "correct": false
   },
@@ -2476,22 +2476,22 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 0.0,
       "ct_state_ttl": 2.0,
       "ct_dst_src_ltm": 7.0,
-      "ct_srv_dst": 7.0,
-      "rate": 125000.0003
+      "ct_dst_sport_ltm": 3.0,
+      "ct_src_dport_ltm": 3.0,
+      "smean": 100.0
     },
     "x": [
       100,
-      0,
       33,
       17,
       17,
-      12
+      9,
+      9
     ],
-    "normalScore": "7824761",
-    "attackScore": "11256160",
+    "normalScore": "91172288",
+    "attackScore": "140280935",
     "prediction": "Attack",
     "correct": true
   },
@@ -2502,24 +2502,24 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 62.0,
-      "dttl": 252.0,
       "ct_state_ttl": 1.0,
       "ct_dst_src_ltm": 1.0,
-      "ct_srv_dst": 1.0,
-      "rate": 35.936135
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 86.0
     },
     "x": [
       24,
-      100,
       17,
       2,
-      2,
-      0
+      6,
+      3,
+      8
     ],
-    "normalScore": "7995149",
-    "attackScore": "11085772",
-    "prediction": "Attack",
-    "correct": true
+    "normalScore": "134015743",
+    "attackScore": "97437480",
+    "prediction": "Normal",
+    "correct": false
   },
   {
     "sample_id": 97,
@@ -2528,22 +2528,22 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 0.0,
       "ct_state_ttl": 2.0,
       "ct_dst_src_ltm": 1.0,
-      "ct_srv_dst": 2.0,
-      "rate": 83333.33039
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 682.0
     },
     "x": [
       100,
-      0,
       33,
       2,
-      5,
-      8
+      6,
+      3,
+      60
     ],
-    "normalScore": "9382072",
-    "attackScore": "9698849",
+    "normalScore": "24744151",
+    "attackScore": "206709072",
     "prediction": "Attack",
     "correct": true
   },
@@ -2554,22 +2554,22 @@
     "dataset_label": "Attack",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 0.0,
       "ct_state_ttl": 2.0,
       "ct_dst_src_ltm": 26.0,
-      "ct_srv_dst": 23.0,
-      "rate": 111111.1072
+      "ct_dst_sport_ltm": 18.0,
+      "ct_src_dport_ltm": 18.0,
+      "smean": 57.0
     },
     "x": [
       100,
-      0,
       33,
       63,
-      56,
-      11
+      100,
+      53,
+      5
     ],
-    "normalScore": "3482837",
-    "attackScore": "15598084",
+    "normalScore": "42437344",
+    "attackScore": "189015879",
     "prediction": "Attack",
     "correct": true
   },
@@ -2580,23 +2580,23 @@
     "dataset_label": "Normal",
     "raw_features": {
       "sttl": 254.0,
-      "dttl": 252.0,
       "ct_state_ttl": 1.0,
       "ct_dst_src_ltm": 2.0,
-      "ct_srv_dst": 2.0,
-      "rate": 21.510262
+      "ct_dst_sport_ltm": 1.0,
+      "ct_src_dport_ltm": 1.0,
+      "smean": 54.0
     },
     "x": [
       100,
-      100,
       17,
       5,
-      5,
-      0
+      6,
+      3,
+      5
     ],
-    "normalScore": "7181177",
-    "attackScore": "11899744",
-    "prediction": "Attack",
-    "correct": false
+    "normalScore": "117047984",
+    "attackScore": "114405239",
+    "prediction": "Normal",
+    "correct": true
   }
 ]
