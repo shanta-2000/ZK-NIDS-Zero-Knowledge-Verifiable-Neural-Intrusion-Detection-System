@@ -1,0 +1,2602 @@
+[
+  {
+    "sample_id": 0,
+    "original_test_row_index": 53929,
+    "attack_cat": "Generic",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_dst_src_ltm": 4.0,
+      "ct_srv_dst": 7.0,
+      "rate": 100000.0025
+    },
+    "x": [
+      100,
+      0,
+      33,
+      10,
+      17,
+      10
+    ],
+    "normalScore": "9537456",
+    "attackScore": "9543465",
+    "prediction": "Attack",
+    "correct": true
+  },
+  {
+    "sample_id": 1,
+    "original_test_row_index": 39780,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 31.0,
+      "dttl": 29.0,
+      "ct_state_ttl": 0.0,
+      "ct_dst_src_ltm": 1.0,
+      "ct_srv_dst": 5.0,
+      "rate": 2044.321891
+    },
+    "x": [
+      12,
+      12,
+      0,
+      2,
+      12,
+      0
+    ],
+    "normalScore": "13461398",
+    "attackScore": "5619523",
+    "prediction": "Normal",
+    "correct": true
+  },
+  {
+    "sample_id": 2,
+    "original_test_row_index": 21990,
+    "attack_cat": "Generic",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_dst_src_ltm": 29.0,
+      "ct_srv_dst": 29.0,
+      "rate": 125000.0003
+    },
+    "x": [
+      100,
+      0,
+      33,
+      71,
+      71,
+      12
+    ],
+    "normalScore": "5197985",
+    "attackScore": "13882936",
+    "prediction": "Attack",
+    "correct": true
+  },
+  {
+    "sample_id": 3,
+    "original_test_row_index": 42505,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_dst_src_ltm": 2.0,
+      "ct_srv_dst": 2.0,
+      "rate": 166666.6608
+    },
+    "x": [
+      100,
+      0,
+      33,
+      5,
+      5,
+      17
+    ],
+    "normalScore": "8279086",
+    "attackScore": "10801835",
+    "prediction": "Attack",
+    "correct": false
+  },
+  {
+    "sample_id": 4,
+    "original_test_row_index": 235,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "ct_state_ttl": 6.0,
+      "ct_dst_src_ltm": 7.0,
+      "ct_srv_dst": 7.0,
+      "rate": 0.102756
+    },
+    "x": [
+      100,
+      0,
+      100,
+      17,
+      17,
+      0
+    ],
+    "normalScore": "12632650",
+    "attackScore": "6448271",
+    "prediction": "Normal",
+    "correct": true
+  },
+  {
+    "sample_id": 5,
+    "original_test_row_index": 68974,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 252.0,
+      "ct_state_ttl": 1.0,
+      "ct_dst_src_ltm": 2.0,
+      "ct_srv_dst": 2.0,
+      "rate": 18.201078
+    },
+    "x": [
+      100,
+      100,
+      17,
+      5,
+      5,
+      0
+    ],
+    "normalScore": "7181177",
+    "attackScore": "11899744",
+    "prediction": "Attack",
+    "correct": false
+  },
+  {
+    "sample_id": 6,
+    "original_test_row_index": 1207,
+    "attack_cat": "Exploits",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 252.0,
+      "ct_state_ttl": 1.0,
+      "ct_dst_src_ltm": 1.0,
+      "ct_srv_dst": 1.0,
+      "rate": 20.098007
+    },
+    "x": [
+      100,
+      100,
+      17,
+      2,
+      2,
+      0
+    ],
+    "normalScore": "6153365",
+    "attackScore": "12927556",
+    "prediction": "Attack",
+    "correct": true
+  },
+  {
+    "sample_id": 7,
+    "original_test_row_index": 61003,
+    "attack_cat": "Exploits",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 62.0,
+      "dttl": 252.0,
+      "ct_state_ttl": 1.0,
+      "ct_dst_src_ltm": 1.0,
+      "ct_srv_dst": 1.0,
+      "rate": 57.341803
+    },
+    "x": [
+      24,
+      100,
+      17,
+      2,
+      2,
+      0
+    ],
+    "normalScore": "7995149",
+    "attackScore": "11085772",
+    "prediction": "Attack",
+    "correct": true
+  },
+  {
+    "sample_id": 8,
+    "original_test_row_index": 15629,
+    "attack_cat": "Generic",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_dst_src_ltm": 31.0,
+      "ct_srv_dst": 31.0,
+      "rate": 250000.0006
+    },
+    "x": [
+      100,
+      0,
+      33,
+      76,
+      76,
+      25
+    ],
+    "normalScore": "4331894",
+    "attackScore": "14749027",
+    "prediction": "Attack",
+    "correct": true
+  },
+  {
+    "sample_id": 9,
+    "original_test_row_index": 76391,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 252.0,
+      "ct_state_ttl": 1.0,
+      "ct_dst_src_ltm": 4.0,
+      "ct_srv_dst": 4.0,
+      "rate": 14.941573
+    },
+    "x": [
+      100,
+      100,
+      17,
+      10,
+      10,
+      0
+    ],
+    "normalScore": "8901237",
+    "attackScore": "10179684",
+    "prediction": "Attack",
+    "correct": false
+  },
+  {
+    "sample_id": 10,
+    "original_test_row_index": 50519,
+    "attack_cat": "Fuzzers",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 252.0,
+      "ct_state_ttl": 1.0,
+      "ct_dst_src_ltm": 1.0,
+      "ct_srv_dst": 2.0,
+      "rate": 22.078798
+    },
+    "x": [
+      100,
+      100,
+      17,
+      2,
+      5,
+      0
+    ],
+    "normalScore": "8121224",
+    "attackScore": "10959697",
+    "prediction": "Attack",
+    "correct": true
+  },
+  {
+    "sample_id": 11,
+    "original_test_row_index": 73141,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 252.0,
+      "ct_state_ttl": 1.0,
+      "ct_dst_src_ltm": 2.0,
+      "ct_srv_dst": 2.0,
+      "rate": 22.875535
+    },
+    "x": [
+      100,
+      100,
+      17,
+      5,
+      5,
+      0
+    ],
+    "normalScore": "7181177",
+    "attackScore": "11899744",
+    "prediction": "Attack",
+    "correct": false
+  },
+  {
+    "sample_id": 12,
+    "original_test_row_index": 61693,
+    "attack_cat": "Fuzzers",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 252.0,
+      "ct_state_ttl": 1.0,
+      "ct_dst_src_ltm": 1.0,
+      "ct_srv_dst": 2.0,
+      "rate": 9.203608
+    },
+    "x": [
+      100,
+      100,
+      17,
+      2,
+      5,
+      0
+    ],
+    "normalScore": "8121224",
+    "attackScore": "10959697",
+    "prediction": "Attack",
+    "correct": true
+  },
+  {
+    "sample_id": 13,
+    "original_test_row_index": 43809,
+    "attack_cat": "Fuzzers",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 252.0,
+      "ct_state_ttl": 1.0,
+      "ct_dst_src_ltm": 1.0,
+      "ct_srv_dst": 6.0,
+      "rate": 17.20884
+    },
+    "x": [
+      100,
+      100,
+      17,
+      2,
+      15,
+      0
+    ],
+    "normalScore": "14776824",
+    "attackScore": "4304097",
+    "prediction": "Normal",
+    "correct": false
+  },
+  {
+    "sample_id": 14,
+    "original_test_row_index": 33657,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 31.0,
+      "dttl": 29.0,
+      "ct_state_ttl": 0.0,
+      "ct_dst_src_ltm": 1.0,
+      "ct_srv_dst": 3.0,
+      "rate": 3012.048141
+    },
+    "x": [
+      12,
+      12,
+      0,
+      2,
+      7,
+      0
+    ],
+    "normalScore": "12952193",
+    "attackScore": "6128728",
+    "prediction": "Normal",
+    "correct": true
+  },
+  {
+    "sample_id": 15,
+    "original_test_row_index": 48477,
+    "attack_cat": "Backdoor",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_dst_src_ltm": 6.0,
+      "ct_srv_dst": 18.0,
+      "rate": 200000.0051
+    },
+    "x": [
+      100,
+      0,
+      33,
+      15,
+      44,
+      20
+    ],
+    "normalScore": "13679588",
+    "attackScore": "5401333",
+    "prediction": "Normal",
+    "correct": false
+  },
+  {
+    "sample_id": 16,
+    "original_test_row_index": 50623,
+    "attack_cat": "Generic",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_dst_src_ltm": 3.0,
+      "ct_srv_dst": 10.0,
+      "rate": 90909.0902
+    },
+    "x": [
+      100,
+      0,
+      33,
+      7,
+      24,
+      9
+    ],
+    "normalScore": "11444945",
+    "attackScore": "7635976",
+    "prediction": "Normal",
+    "correct": false
+  },
+  {
+    "sample_id": 17,
+    "original_test_row_index": 26108,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 31.0,
+      "dttl": 29.0,
+      "ct_state_ttl": 0.0,
+      "ct_dst_src_ltm": 6.0,
+      "ct_srv_dst": 14.0,
+      "rate": 2391.650913
+    },
+    "x": [
+      12,
+      12,
+      0,
+      15,
+      34,
+      0
+    ],
+    "normalScore": "15731561",
+    "attackScore": "3349360",
+    "prediction": "Normal",
+    "correct": true
+  },
+  {
+    "sample_id": 18,
+    "original_test_row_index": 67774,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 252.0,
+      "ct_state_ttl": 1.0,
+      "ct_dst_src_ltm": 2.0,
+      "ct_srv_dst": 2.0,
+      "rate": 14.042663
+    },
+    "x": [
+      100,
+      100,
+      17,
+      5,
+      5,
+      0
+    ],
+    "normalScore": "7181177",
+    "attackScore": "11899744",
+    "prediction": "Attack",
+    "correct": false
+  },
+  {
+    "sample_id": 19,
+    "original_test_row_index": 52212,
+    "attack_cat": "Backdoor",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_dst_src_ltm": 2.0,
+      "ct_srv_dst": 9.0,
+      "rate": 125000.0003
+    },
+    "x": [
+      100,
+      0,
+      33,
+      5,
+      22,
+      12
+    ],
+    "normalScore": "11388020",
+    "attackScore": "7692901",
+    "prediction": "Normal",
+    "correct": false
+  },
+  {
+    "sample_id": 20,
+    "original_test_row_index": 81785,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 62.0,
+      "dttl": 252.0,
+      "ct_state_ttl": 3.0,
+      "ct_dst_src_ltm": 2.0,
+      "ct_srv_dst": 2.0,
+      "rate": 17.764379
+    },
+    "x": [
+      24,
+      100,
+      50,
+      5,
+      5,
+      0
+    ],
+    "normalScore": "7590254",
+    "attackScore": "11490667",
+    "prediction": "Attack",
+    "correct": false
+  },
+  {
+    "sample_id": 21,
+    "original_test_row_index": 50848,
+    "attack_cat": "Fuzzers",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_dst_src_ltm": 3.0,
+      "ct_srv_dst": 9.0,
+      "rate": 142857.1409
+    },
+    "x": [
+      100,
+      0,
+      33,
+      7,
+      22,
+      14
+    ],
+    "normalScore": "10918452",
+    "attackScore": "8162469",
+    "prediction": "Normal",
+    "correct": false
+  },
+  {
+    "sample_id": 22,
+    "original_test_row_index": 32160,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 31.0,
+      "dttl": 29.0,
+      "ct_state_ttl": 0.0,
+      "ct_dst_src_ltm": 1.0,
+      "ct_srv_dst": 2.0,
+      "rate": 4309.745739
+    },
+    "x": [
+      12,
+      12,
+      0,
+      2,
+      5,
+      0
+    ],
+    "normalScore": "12758857",
+    "attackScore": "6322064",
+    "prediction": "Normal",
+    "correct": true
+  },
+  {
+    "sample_id": 23,
+    "original_test_row_index": 38511,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 31.0,
+      "dttl": 29.0,
+      "ct_state_ttl": 0.0,
+      "ct_dst_src_ltm": 1.0,
+      "ct_srv_dst": 3.0,
+      "rate": 2775.208228
+    },
+    "x": [
+      12,
+      12,
+      0,
+      2,
+      7,
+      0
+    ],
+    "normalScore": "12952193",
+    "attackScore": "6128728",
+    "prediction": "Normal",
+    "correct": true
+  },
+  {
+    "sample_id": 24,
+    "original_test_row_index": 30197,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 31.0,
+      "dttl": 29.0,
+      "ct_state_ttl": 0.0,
+      "ct_dst_src_ltm": 2.0,
+      "ct_srv_dst": 6.0,
+      "rate": 2509.314833
+    },
+    "x": [
+      12,
+      12,
+      0,
+      5,
+      15,
+      0
+    ],
+    "normalScore": "13676798",
+    "attackScore": "5404123",
+    "prediction": "Normal",
+    "correct": true
+  },
+  {
+    "sample_id": 25,
+    "original_test_row_index": 41918,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 252.0,
+      "ct_state_ttl": 1.0,
+      "ct_dst_src_ltm": 1.0,
+      "ct_srv_dst": 1.0,
+      "rate": 21.460391
+    },
+    "x": [
+      100,
+      100,
+      17,
+      2,
+      2,
+      0
+    ],
+    "normalScore": "6153365",
+    "attackScore": "12927556",
+    "prediction": "Attack",
+    "correct": false
+  },
+  {
+    "sample_id": 26,
+    "original_test_row_index": 69516,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 252.0,
+      "ct_state_ttl": 1.0,
+      "ct_dst_src_ltm": 1.0,
+      "ct_srv_dst": 1.0,
+      "rate": 17.398083
+    },
+    "x": [
+      100,
+      100,
+      17,
+      2,
+      2,
+      0
+    ],
+    "normalScore": "6153365",
+    "attackScore": "12927556",
+    "prediction": "Attack",
+    "correct": false
+  },
+  {
+    "sample_id": 27,
+    "original_test_row_index": 35086,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 31.0,
+      "dttl": 29.0,
+      "ct_state_ttl": 0.0,
+      "ct_dst_src_ltm": 1.0,
+      "ct_srv_dst": 3.0,
+      "rate": 2887.391736
+    },
+    "x": [
+      12,
+      12,
+      0,
+      2,
+      7,
+      0
+    ],
+    "normalScore": "12952193",
+    "attackScore": "6128728",
+    "prediction": "Normal",
+    "correct": true
+  },
+  {
+    "sample_id": 28,
+    "original_test_row_index": 28827,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 31.0,
+      "dttl": 29.0,
+      "ct_state_ttl": 0.0,
+      "ct_dst_src_ltm": 1.0,
+      "ct_srv_dst": 10.0,
+      "rate": 6672.664776
+    },
+    "x": [
+      12,
+      12,
+      0,
+      2,
+      24,
+      1
+    ],
+    "normalScore": "14886853",
+    "attackScore": "4194068",
+    "prediction": "Normal",
+    "correct": true
+  },
+  {
+    "sample_id": 29,
+    "original_test_row_index": 17861,
+    "attack_cat": "Generic",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_dst_src_ltm": 17.0,
+      "ct_srv_dst": 17.0,
+      "rate": 333333.3215
+    },
+    "x": [
+      100,
+      0,
+      33,
+      41,
+      41,
+      33
+    ],
+    "normalScore": "5417102",
+    "attackScore": "13663819",
+    "prediction": "Attack",
+    "correct": true
+  },
+  {
+    "sample_id": 30,
+    "original_test_row_index": 22126,
+    "attack_cat": "Generic",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_dst_src_ltm": 25.0,
+      "ct_srv_dst": 25.0,
+      "rate": 142857.1409
+    },
+    "x": [
+      100,
+      0,
+      33,
+      61,
+      61,
+      14
+    ],
+    "normalScore": "5502705",
+    "attackScore": "13578216",
+    "prediction": "Attack",
+    "correct": true
+  },
+  {
+    "sample_id": 31,
+    "original_test_row_index": 9821,
+    "attack_cat": "Exploits",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 60.0,
+      "ct_state_ttl": 0.0,
+      "ct_dst_src_ltm": 1.0,
+      "ct_srv_dst": 1.0,
+      "rate": 15.489033
+    },
+    "x": [
+      100,
+      24,
+      0,
+      2,
+      2,
+      0
+    ],
+    "normalScore": "6295010",
+    "attackScore": "12785911",
+    "prediction": "Attack",
+    "correct": true
+  },
+  {
+    "sample_id": 32,
+    "original_test_row_index": 13483,
+    "attack_cat": "Generic",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_dst_src_ltm": 45.0,
+      "ct_srv_dst": 45.0,
+      "rate": 333333.3215
+    },
+    "x": [
+      100,
+      0,
+      33,
+      100,
+      100,
+      33
+    ],
+    "normalScore": "3132150",
+    "attackScore": "15948771",
+    "prediction": "Attack",
+    "correct": true
+  },
+  {
+    "sample_id": 33,
+    "original_test_row_index": 42894,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 252.0,
+      "ct_state_ttl": 1.0,
+      "ct_dst_src_ltm": 4.0,
+      "ct_srv_dst": 4.0,
+      "rate": 19.608526
+    },
+    "x": [
+      100,
+      100,
+      17,
+      10,
+      10,
+      0
+    ],
+    "normalScore": "8901237",
+    "attackScore": "10179684",
+    "prediction": "Attack",
+    "correct": false
+  },
+  {
+    "sample_id": 34,
+    "original_test_row_index": 76359,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 252.0,
+      "ct_state_ttl": 1.0,
+      "ct_dst_src_ltm": 3.0,
+      "ct_srv_dst": 3.0,
+      "rate": 17.49063
+    },
+    "x": [
+      100,
+      100,
+      17,
+      7,
+      7,
+      0
+    ],
+    "normalScore": "7868145",
+    "attackScore": "11212776",
+    "prediction": "Attack",
+    "correct": false
+  },
+  {
+    "sample_id": 35,
+    "original_test_row_index": 75853,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 62.0,
+      "dttl": 252.0,
+      "ct_state_ttl": 3.0,
+      "ct_dst_src_ltm": 2.0,
+      "ct_srv_dst": 2.0,
+      "rate": 6.119422
+    },
+    "x": [
+      24,
+      100,
+      50,
+      5,
+      5,
+      0
+    ],
+    "normalScore": "7590254",
+    "attackScore": "11490667",
+    "prediction": "Attack",
+    "correct": false
+  },
+  {
+    "sample_id": 36,
+    "original_test_row_index": 22364,
+    "attack_cat": "Generic",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_dst_src_ltm": 32.0,
+      "ct_srv_dst": 32.0,
+      "rate": 111111.1072
+    },
+    "x": [
+      100,
+      0,
+      33,
+      78,
+      78,
+      11
+    ],
+    "normalScore": "4984242",
+    "attackScore": "14096679",
+    "prediction": "Attack",
+    "correct": true
+  },
+  {
+    "sample_id": 37,
+    "original_test_row_index": 37788,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 31.0,
+      "dttl": 29.0,
+      "ct_state_ttl": 0.0,
+      "ct_dst_src_ltm": 1.0,
+      "ct_srv_dst": 2.0,
+      "rate": 2767.527704
+    },
+    "x": [
+      12,
+      12,
+      0,
+      2,
+      5,
+      0
+    ],
+    "normalScore": "12758857",
+    "attackScore": "6322064",
+    "prediction": "Normal",
+    "correct": true
+  },
+  {
+    "sample_id": 38,
+    "original_test_row_index": 163,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "ct_state_ttl": 6.0,
+      "ct_dst_src_ltm": 18.0,
+      "ct_srv_dst": 17.0,
+      "rate": 1.130046
+    },
+    "x": [
+      100,
+      0,
+      100,
+      44,
+      41,
+      0
+    ],
+    "normalScore": "12749065",
+    "attackScore": "6331856",
+    "prediction": "Normal",
+    "correct": true
+  },
+  {
+    "sample_id": 39,
+    "original_test_row_index": 27180,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 31.0,
+      "dttl": 29.0,
+      "ct_state_ttl": 0.0,
+      "ct_dst_src_ltm": 3.0,
+      "ct_srv_dst": 16.0,
+      "rate": 1496.685913
+    },
+    "x": [
+      12,
+      12,
+      0,
+      7,
+      39,
+      0
+    ],
+    "normalScore": "16787626",
+    "attackScore": "2293295",
+    "prediction": "Normal",
+    "correct": true
+  },
+  {
+    "sample_id": 40,
+    "original_test_row_index": 1278,
+    "attack_cat": "Reconnaissance",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_dst_src_ltm": 1.0,
+      "ct_srv_dst": 1.0,
+      "rate": 0.673445
+    },
+    "x": [
+      100,
+      0,
+      33,
+      2,
+      2,
+      0
+    ],
+    "normalScore": "9379229",
+    "attackScore": "9701692",
+    "prediction": "Attack",
+    "correct": true
+  },
+  {
+    "sample_id": 41,
+    "original_test_row_index": 12327,
+    "attack_cat": "Generic",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_dst_src_ltm": 22.0,
+      "ct_srv_dst": 22.0,
+      "rate": 333333.3215
+    },
+    "x": [
+      100,
+      0,
+      33,
+      54,
+      54,
+      33
+    ],
+    "normalScore": "4808390",
+    "attackScore": "14272531",
+    "prediction": "Attack",
+    "correct": true
+  },
+  {
+    "sample_id": 42,
+    "original_test_row_index": 930,
+    "attack_cat": "Fuzzers",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 252.0,
+      "ct_state_ttl": 1.0,
+      "ct_dst_src_ltm": 1.0,
+      "ct_srv_dst": 1.0,
+      "rate": 23.74626
+    },
+    "x": [
+      100,
+      100,
+      17,
+      2,
+      2,
+      0
+    ],
+    "normalScore": "6153365",
+    "attackScore": "12927556",
+    "prediction": "Attack",
+    "correct": true
+  },
+  {
+    "sample_id": 43,
+    "original_test_row_index": 5906,
+    "attack_cat": "DoS",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_dst_src_ltm": 7.0,
+      "ct_srv_dst": 7.0,
+      "rate": 500000.0013
+    },
+    "x": [
+      100,
+      0,
+      33,
+      17,
+      17,
+      50
+    ],
+    "normalScore": "5773369",
+    "attackScore": "13307552",
+    "prediction": "Attack",
+    "correct": true
+  },
+  {
+    "sample_id": 44,
+    "original_test_row_index": 21979,
+    "attack_cat": "Generic",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 62.0,
+      "dttl": 252.0,
+      "ct_state_ttl": 1.0,
+      "ct_dst_src_ltm": 1.0,
+      "ct_srv_dst": 1.0,
+      "rate": 100.954295
+    },
+    "x": [
+      24,
+      100,
+      17,
+      2,
+      2,
+      0
+    ],
+    "normalScore": "7995149",
+    "attackScore": "11085772",
+    "prediction": "Attack",
+    "correct": true
+  },
+  {
+    "sample_id": 45,
+    "original_test_row_index": 4653,
+    "attack_cat": "DoS",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 252.0,
+      "ct_state_ttl": 1.0,
+      "ct_dst_src_ltm": 1.0,
+      "ct_srv_dst": 1.0,
+      "rate": 27.568687
+    },
+    "x": [
+      100,
+      100,
+      17,
+      2,
+      2,
+      0
+    ],
+    "normalScore": "6153365",
+    "attackScore": "12927556",
+    "prediction": "Attack",
+    "correct": true
+  },
+  {
+    "sample_id": 46,
+    "original_test_row_index": 76270,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 252.0,
+      "ct_state_ttl": 1.0,
+      "ct_dst_src_ltm": 2.0,
+      "ct_srv_dst": 3.0,
+      "rate": 32.374613
+    },
+    "x": [
+      100,
+      100,
+      17,
+      5,
+      7,
+      0
+    ],
+    "normalScore": "8507205",
+    "attackScore": "10573716",
+    "prediction": "Attack",
+    "correct": false
+  },
+  {
+    "sample_id": 47,
+    "original_test_row_index": 26999,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 31.0,
+      "dttl": 29.0,
+      "ct_state_ttl": 0.0,
+      "ct_dst_src_ltm": 1.0,
+      "ct_srv_dst": 2.0,
+      "rate": 3210.549876
+    },
+    "x": [
+      12,
+      12,
+      0,
+      2,
+      5,
+      0
+    ],
+    "normalScore": "12758857",
+    "attackScore": "6322064",
+    "prediction": "Normal",
+    "correct": true
+  },
+  {
+    "sample_id": 48,
+    "original_test_row_index": 62459,
+    "attack_cat": "Exploits",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 62.0,
+      "dttl": 252.0,
+      "ct_state_ttl": 1.0,
+      "ct_dst_src_ltm": 2.0,
+      "ct_srv_dst": 4.0,
+      "rate": 15.823964
+    },
+    "x": [
+      24,
+      100,
+      17,
+      5,
+      10,
+      0
+    ],
+    "normalScore": "11905276",
+    "attackScore": "7175645",
+    "prediction": "Normal",
+    "correct": false
+  },
+  {
+    "sample_id": 49,
+    "original_test_row_index": 14975,
+    "attack_cat": "Generic",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_dst_src_ltm": 22.0,
+      "ct_srv_dst": 22.0,
+      "rate": 111111.1072
+    },
+    "x": [
+      100,
+      0,
+      33,
+      54,
+      54,
+      11
+    ],
+    "normalScore": "5966514",
+    "attackScore": "13114407",
+    "prediction": "Attack",
+    "correct": true
+  },
+  {
+    "sample_id": 50,
+    "original_test_row_index": 33567,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 31.0,
+      "dttl": 29.0,
+      "ct_state_ttl": 0.0,
+      "ct_dst_src_ltm": 2.0,
+      "ct_srv_dst": 2.0,
+      "rate": 598.75805
+    },
+    "x": [
+      12,
+      12,
+      0,
+      5,
+      5,
+      0
+    ],
+    "normalScore": "12617338",
+    "attackScore": "6463583",
+    "prediction": "Normal",
+    "correct": true
+  },
+  {
+    "sample_id": 51,
+    "original_test_row_index": 44857,
+    "attack_cat": "Fuzzers",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_dst_src_ltm": 1.0,
+      "ct_srv_dst": 2.0,
+      "rate": 0.761688
+    },
+    "x": [
+      100,
+      0,
+      33,
+      2,
+      5,
+      0
+    ],
+    "normalScore": "9777896",
+    "attackScore": "9303025",
+    "prediction": "Normal",
+    "correct": false
+  },
+  {
+    "sample_id": 52,
+    "original_test_row_index": 39663,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 31.0,
+      "dttl": 29.0,
+      "ct_state_ttl": 0.0,
+      "ct_dst_src_ltm": 4.0,
+      "ct_srv_dst": 5.0,
+      "rate": 3638.253672
+    },
+    "x": [
+      12,
+      12,
+      0,
+      10,
+      12,
+      0
+    ],
+    "normalScore": "13079446",
+    "attackScore": "6001475",
+    "prediction": "Normal",
+    "correct": true
+  },
+  {
+    "sample_id": 53,
+    "original_test_row_index": 898,
+    "attack_cat": "Exploits",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 252.0,
+      "ct_state_ttl": 1.0,
+      "ct_dst_src_ltm": 1.0,
+      "ct_srv_dst": 1.0,
+      "rate": 6.229083
+    },
+    "x": [
+      100,
+      100,
+      17,
+      2,
+      2,
+      0
+    ],
+    "normalScore": "6153365",
+    "attackScore": "12927556",
+    "prediction": "Attack",
+    "correct": true
+  },
+  {
+    "sample_id": 54,
+    "original_test_row_index": 21717,
+    "attack_cat": "Generic",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_dst_src_ltm": 25.0,
+      "ct_srv_dst": 25.0,
+      "rate": 125000.0003
+    },
+    "x": [
+      100,
+      0,
+      33,
+      61,
+      61,
+      12
+    ],
+    "normalScore": "5606985",
+    "attackScore": "13473936",
+    "prediction": "Attack",
+    "correct": true
+  },
+  {
+    "sample_id": 55,
+    "original_test_row_index": 54213,
+    "attack_cat": "Analysis",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_dst_src_ltm": 3.0,
+      "ct_srv_dst": 15.0,
+      "rate": 500000.0013
+    },
+    "x": [
+      100,
+      0,
+      33,
+      7,
+      37,
+      50
+    ],
+    "normalScore": "13341069",
+    "attackScore": "5739852",
+    "prediction": "Normal",
+    "correct": false
+  },
+  {
+    "sample_id": 56,
+    "original_test_row_index": 25786,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 31.0,
+      "dttl": 29.0,
+      "ct_state_ttl": 0.0,
+      "ct_dst_src_ltm": 6.0,
+      "ct_srv_dst": 22.0,
+      "rate": 245.973952
+    },
+    "x": [
+      12,
+      12,
+      0,
+      15,
+      54,
+      0
+    ],
+    "normalScore": "19079921",
+    "attackScore": "1000",
+    "prediction": "Normal",
+    "correct": true
+  },
+  {
+    "sample_id": 57,
+    "original_test_row_index": 77152,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 252.0,
+      "ct_state_ttl": 1.0,
+      "ct_dst_src_ltm": 10.0,
+      "ct_srv_dst": 10.0,
+      "rate": 32.048986
+    },
+    "x": [
+      100,
+      100,
+      17,
+      24,
+      24,
+      0
+    ],
+    "normalScore": "13764221",
+    "attackScore": "5316700",
+    "prediction": "Normal",
+    "correct": true
+  },
+  {
+    "sample_id": 58,
+    "original_test_row_index": 39568,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 31.0,
+      "dttl": 29.0,
+      "ct_state_ttl": 0.0,
+      "ct_dst_src_ltm": 1.0,
+      "ct_srv_dst": 4.0,
+      "rate": 2712.477299
+    },
+    "x": [
+      12,
+      12,
+      0,
+      2,
+      10,
+      0
+    ],
+    "normalScore": "13253282",
+    "attackScore": "5827639",
+    "prediction": "Normal",
+    "correct": true
+  },
+  {
+    "sample_id": 59,
+    "original_test_row_index": 40149,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 31.0,
+      "dttl": 29.0,
+      "ct_state_ttl": 0.0,
+      "ct_dst_src_ltm": 1.0,
+      "ct_srv_dst": 2.0,
+      "rate": 3006.011927
+    },
+    "x": [
+      12,
+      12,
+      0,
+      2,
+      5,
+      0
+    ],
+    "normalScore": "12758857",
+    "attackScore": "6322064",
+    "prediction": "Normal",
+    "correct": true
+  },
+  {
+    "sample_id": 60,
+    "original_test_row_index": 30439,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 31.0,
+      "dttl": 29.0,
+      "ct_state_ttl": 0.0,
+      "ct_dst_src_ltm": 7.0,
+      "ct_srv_dst": 1.0,
+      "rate": 10.842669
+    },
+    "x": [
+      12,
+      12,
+      0,
+      17,
+      2,
+      0
+    ],
+    "normalScore": "11418553",
+    "attackScore": "7662368",
+    "prediction": "Normal",
+    "correct": true
+  },
+  {
+    "sample_id": 61,
+    "original_test_row_index": 58385,
+    "attack_cat": "Generic",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_dst_src_ltm": 4.0,
+      "ct_srv_dst": 6.0,
+      "rate": 90909.0902
+    },
+    "x": [
+      100,
+      0,
+      33,
+      10,
+      15,
+      9
+    ],
+    "normalScore": "9236825",
+    "attackScore": "9844096",
+    "prediction": "Attack",
+    "correct": true
+  },
+  {
+    "sample_id": 62,
+    "original_test_row_index": 40644,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 62.0,
+      "dttl": 252.0,
+      "ct_state_ttl": 3.0,
+      "ct_dst_src_ltm": 3.0,
+      "ct_srv_dst": 3.0,
+      "rate": 28.010308
+    },
+    "x": [
+      24,
+      100,
+      50,
+      7,
+      7,
+      0
+    ],
+    "normalScore": "8508302",
+    "attackScore": "10572619",
+    "prediction": "Attack",
+    "correct": false
+  },
+  {
+    "sample_id": 63,
+    "original_test_row_index": 29646,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 31.0,
+      "dttl": 29.0,
+      "ct_state_ttl": 0.0,
+      "ct_dst_src_ltm": 3.0,
+      "ct_srv_dst": 12.0,
+      "rate": 1915.184735
+    },
+    "x": [
+      12,
+      12,
+      0,
+      7,
+      29,
+      0
+    ],
+    "normalScore": "15351006",
+    "attackScore": "3729915",
+    "prediction": "Normal",
+    "correct": true
+  },
+  {
+    "sample_id": 64,
+    "original_test_row_index": 3827,
+    "attack_cat": "DoS",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_dst_src_ltm": 8.0,
+      "ct_srv_dst": 8.0,
+      "rate": 125000.0003
+    },
+    "x": [
+      100,
+      0,
+      33,
+      20,
+      20,
+      12
+    ],
+    "normalScore": "7651901",
+    "attackScore": "11429020",
+    "prediction": "Attack",
+    "correct": true
+  },
+  {
+    "sample_id": 65,
+    "original_test_row_index": 64016,
+    "attack_cat": "Fuzzers",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_dst_src_ltm": 1.0,
+      "ct_srv_dst": 3.0,
+      "rate": 83333.33039
+    },
+    "x": [
+      100,
+      0,
+      33,
+      2,
+      7,
+      8
+    ],
+    "normalScore": "9676616",
+    "attackScore": "9404305",
+    "prediction": "Normal",
+    "correct": false
+  },
+  {
+    "sample_id": 66,
+    "original_test_row_index": 7975,
+    "attack_cat": "Fuzzers",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_dst_src_ltm": 7.0,
+      "ct_srv_dst": 7.0,
+      "rate": 200000.0051
+    },
+    "x": [
+      100,
+      0,
+      33,
+      17,
+      17,
+      20
+    ],
+    "normalScore": "7396969",
+    "attackScore": "11683952",
+    "prediction": "Attack",
+    "correct": true
+  },
+  {
+    "sample_id": 67,
+    "original_test_row_index": 74214,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 62.0,
+      "dttl": 252.0,
+      "ct_state_ttl": 1.0,
+      "ct_dst_src_ltm": 2.0,
+      "ct_srv_dst": 2.0,
+      "rate": 18.960448
+    },
+    "x": [
+      24,
+      100,
+      17,
+      5,
+      5,
+      0
+    ],
+    "normalScore": "9264641",
+    "attackScore": "9816280",
+    "prediction": "Attack",
+    "correct": false
+  },
+  {
+    "sample_id": 68,
+    "original_test_row_index": 29542,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 31.0,
+      "dttl": 29.0,
+      "ct_state_ttl": 0.0,
+      "ct_dst_src_ltm": 6.0,
+      "ct_srv_dst": 14.0,
+      "rate": 159.742094
+    },
+    "x": [
+      12,
+      12,
+      0,
+      15,
+      34,
+      0
+    ],
+    "normalScore": "15731561",
+    "attackScore": "3349360",
+    "prediction": "Normal",
+    "correct": true
+  },
+  {
+    "sample_id": 69,
+    "original_test_row_index": 3517,
+    "attack_cat": "Fuzzers",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_dst_src_ltm": 37.0,
+      "ct_srv_dst": 37.0,
+      "rate": 100000.0025
+    },
+    "x": [
+      100,
+      0,
+      33,
+      90,
+      90,
+      10
+    ],
+    "normalScore": "4620381",
+    "attackScore": "14460540",
+    "prediction": "Attack",
+    "correct": true
+  },
+  {
+    "sample_id": 70,
+    "original_test_row_index": 38095,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 31.0,
+      "dttl": 29.0,
+      "ct_state_ttl": 0.0,
+      "ct_dst_src_ltm": 1.0,
+      "ct_srv_dst": 1.0,
+      "rate": 455.957925
+    },
+    "x": [
+      12,
+      12,
+      0,
+      2,
+      2,
+      0
+    ],
+    "normalScore": "12479938",
+    "attackScore": "6600983",
+    "prediction": "Normal",
+    "correct": true
+  },
+  {
+    "sample_id": 71,
+    "original_test_row_index": 18357,
+    "attack_cat": "Generic",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_dst_src_ltm": 30.0,
+      "ct_srv_dst": 30.0,
+      "rate": 333333.3215
+    },
+    "x": [
+      100,
+      0,
+      33,
+      73,
+      73,
+      33
+    ],
+    "normalScore": "4025742",
+    "attackScore": "15055179",
+    "prediction": "Attack",
+    "correct": true
+  },
+  {
+    "sample_id": 72,
+    "original_test_row_index": 46592,
+    "attack_cat": "Exploits",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 62.0,
+      "dttl": 252.0,
+      "ct_state_ttl": 1.0,
+      "ct_dst_src_ltm": 1.0,
+      "ct_srv_dst": 1.0,
+      "rate": 95.23436
+    },
+    "x": [
+      24,
+      100,
+      17,
+      2,
+      2,
+      0
+    ],
+    "normalScore": "7995149",
+    "attackScore": "11085772",
+    "prediction": "Attack",
+    "correct": true
+  },
+  {
+    "sample_id": 73,
+    "original_test_row_index": 72219,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 252.0,
+      "ct_state_ttl": 1.0,
+      "ct_dst_src_ltm": 5.0,
+      "ct_srv_dst": 5.0,
+      "rate": 25.612439
+    },
+    "x": [
+      100,
+      100,
+      17,
+      12,
+      12,
+      0
+    ],
+    "normalScore": "9591725",
+    "attackScore": "9489196",
+    "prediction": "Normal",
+    "correct": true
+  },
+  {
+    "sample_id": 74,
+    "original_test_row_index": 25399,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 31.0,
+      "dttl": 29.0,
+      "ct_state_ttl": 0.0,
+      "ct_dst_src_ltm": 3.0,
+      "ct_srv_dst": 6.0,
+      "rate": 84.944296
+    },
+    "x": [
+      12,
+      12,
+      0,
+      7,
+      15,
+      0
+    ],
+    "normalScore": "13588042",
+    "attackScore": "5492879",
+    "prediction": "Normal",
+    "correct": true
+  },
+  {
+    "sample_id": 75,
+    "original_test_row_index": 67433,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 252.0,
+      "ct_state_ttl": 1.0,
+      "ct_dst_src_ltm": 3.0,
+      "ct_srv_dst": 3.0,
+      "rate": 78.703821
+    },
+    "x": [
+      100,
+      100,
+      17,
+      7,
+      7,
+      0
+    ],
+    "normalScore": "7868145",
+    "attackScore": "11212776",
+    "prediction": "Attack",
+    "correct": false
+  },
+  {
+    "sample_id": 76,
+    "original_test_row_index": 11036,
+    "attack_cat": "Exploits",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 252.0,
+      "ct_state_ttl": 1.0,
+      "ct_dst_src_ltm": 1.0,
+      "ct_srv_dst": 1.0,
+      "rate": 50.017139
+    },
+    "x": [
+      100,
+      100,
+      17,
+      2,
+      2,
+      0
+    ],
+    "normalScore": "6153365",
+    "attackScore": "12927556",
+    "prediction": "Attack",
+    "correct": true
+  },
+  {
+    "sample_id": 77,
+    "original_test_row_index": 39555,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 31.0,
+      "dttl": 29.0,
+      "ct_state_ttl": 0.0,
+      "ct_dst_src_ltm": 1.0,
+      "ct_srv_dst": 6.0,
+      "rate": 563.663677
+    },
+    "x": [
+      12,
+      12,
+      0,
+      2,
+      15,
+      0
+    ],
+    "normalScore": "13784657",
+    "attackScore": "5296264",
+    "prediction": "Normal",
+    "correct": true
+  },
+  {
+    "sample_id": 78,
+    "original_test_row_index": 16306,
+    "attack_cat": "Generic",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_dst_src_ltm": 43.0,
+      "ct_srv_dst": 42.0,
+      "rate": 166666.6608
+    },
+    "x": [
+      100,
+      0,
+      33,
+      100,
+      100,
+      17
+    ],
+    "normalScore": "3955446",
+    "attackScore": "15125475",
+    "prediction": "Attack",
+    "correct": true
+  },
+  {
+    "sample_id": 79,
+    "original_test_row_index": 73711,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 252.0,
+      "ct_state_ttl": 1.0,
+      "ct_dst_src_ltm": 7.0,
+      "ct_srv_dst": 6.0,
+      "rate": 21.559963
+    },
+    "x": [
+      100,
+      100,
+      17,
+      17,
+      15,
+      0
+    ],
+    "normalScore": "9941589",
+    "attackScore": "9139332",
+    "prediction": "Normal",
+    "correct": true
+  },
+  {
+    "sample_id": 80,
+    "original_test_row_index": 30546,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 31.0,
+      "dttl": 29.0,
+      "ct_state_ttl": 0.0,
+      "ct_dst_src_ltm": 3.0,
+      "ct_srv_dst": 6.0,
+      "rate": 4204.204232
+    },
+    "x": [
+      12,
+      12,
+      0,
+      7,
+      15,
+      0
+    ],
+    "normalScore": "13588042",
+    "attackScore": "5492879",
+    "prediction": "Normal",
+    "correct": true
+  },
+  {
+    "sample_id": 81,
+    "original_test_row_index": 79343,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 252.0,
+      "ct_state_ttl": 1.0,
+      "ct_dst_src_ltm": 4.0,
+      "ct_srv_dst": 4.0,
+      "rate": 17.292302
+    },
+    "x": [
+      100,
+      100,
+      17,
+      10,
+      10,
+      0
+    ],
+    "normalScore": "8901237",
+    "attackScore": "10179684",
+    "prediction": "Attack",
+    "correct": false
+  },
+  {
+    "sample_id": 82,
+    "original_test_row_index": 53767,
+    "attack_cat": "Reconnaissance",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_dst_src_ltm": 1.0,
+      "ct_srv_dst": 3.0,
+      "rate": 500000.0013
+    },
+    "x": [
+      100,
+      0,
+      33,
+      2,
+      7,
+      50
+    ],
+    "normalScore": "7675064",
+    "attackScore": "11405857",
+    "prediction": "Attack",
+    "correct": true
+  },
+  {
+    "sample_id": 83,
+    "original_test_row_index": 10030,
+    "attack_cat": "Exploits",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 62.0,
+      "dttl": 252.0,
+      "ct_state_ttl": 1.0,
+      "ct_dst_src_ltm": 2.0,
+      "ct_srv_dst": 1.0,
+      "rate": 22.179869
+    },
+    "x": [
+      24,
+      100,
+      17,
+      5,
+      2,
+      0
+    ],
+    "normalScore": "7697996",
+    "attackScore": "11382925",
+    "prediction": "Attack",
+    "correct": true
+  },
+  {
+    "sample_id": 84,
+    "original_test_row_index": 52672,
+    "attack_cat": "Generic",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_dst_src_ltm": 4.0,
+      "ct_srv_dst": 7.0,
+      "rate": 200000.0051
+    },
+    "x": [
+      100,
+      0,
+      33,
+      10,
+      17,
+      20
+    ],
+    "normalScore": "9094616",
+    "attackScore": "9986305",
+    "prediction": "Attack",
+    "correct": true
+  },
+  {
+    "sample_id": 85,
+    "original_test_row_index": 67736,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 252.0,
+      "ct_state_ttl": 1.0,
+      "ct_dst_src_ltm": 2.0,
+      "ct_srv_dst": 2.0,
+      "rate": 57.09785
+    },
+    "x": [
+      100,
+      100,
+      17,
+      5,
+      5,
+      0
+    ],
+    "normalScore": "7181177",
+    "attackScore": "11899744",
+    "prediction": "Attack",
+    "correct": false
+  },
+  {
+    "sample_id": 86,
+    "original_test_row_index": 49686,
+    "attack_cat": "Generic",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 252.0,
+      "ct_state_ttl": 1.0,
+      "ct_dst_src_ltm": 2.0,
+      "ct_srv_dst": 2.0,
+      "rate": 23.087851
+    },
+    "x": [
+      100,
+      100,
+      17,
+      5,
+      5,
+      0
+    ],
+    "normalScore": "7181177",
+    "attackScore": "11899744",
+    "prediction": "Attack",
+    "correct": true
+  },
+  {
+    "sample_id": 87,
+    "original_test_row_index": 52744,
+    "attack_cat": "Fuzzers",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 252.0,
+      "ct_state_ttl": 1.0,
+      "ct_dst_src_ltm": 5.0,
+      "ct_srv_dst": 10.0,
+      "rate": 28.636173
+    },
+    "x": [
+      100,
+      100,
+      17,
+      12,
+      24,
+      0
+    ],
+    "normalScore": "17854973",
+    "attackScore": "1225948",
+    "prediction": "Normal",
+    "correct": false
+  },
+  {
+    "sample_id": 88,
+    "original_test_row_index": 69735,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 62.0,
+      "dttl": 252.0,
+      "ct_state_ttl": 3.0,
+      "ct_dst_src_ltm": 5.0,
+      "ct_srv_dst": 5.0,
+      "rate": 17.30108
+    },
+    "x": [
+      24,
+      100,
+      50,
+      12,
+      12,
+      0
+    ],
+    "normalScore": "10809582",
+    "attackScore": "8271339",
+    "prediction": "Normal",
+    "correct": true
+  },
+  {
+    "sample_id": 89,
+    "original_test_row_index": 40678,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 62.0,
+      "dttl": 252.0,
+      "ct_state_ttl": 3.0,
+      "ct_dst_src_ltm": 4.0,
+      "ct_srv_dst": 2.0,
+      "rate": 3.136591
+    },
+    "x": [
+      24,
+      100,
+      50,
+      10,
+      5,
+      0
+    ],
+    "normalScore": "7516989",
+    "attackScore": "11563932",
+    "prediction": "Attack",
+    "correct": false
+  },
+  {
+    "sample_id": 90,
+    "original_test_row_index": 78596,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_dst_src_ltm": 3.0,
+      "ct_srv_dst": 9.0,
+      "rate": 1000000.003
+    },
+    "x": [
+      100,
+      0,
+      33,
+      7,
+      22,
+      100
+    ],
+    "normalScore": "7899164",
+    "attackScore": "11181757",
+    "prediction": "Attack",
+    "correct": false
+  },
+  {
+    "sample_id": 91,
+    "original_test_row_index": 1212,
+    "attack_cat": "Exploits",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 62.0,
+      "dttl": 252.0,
+      "ct_state_ttl": 1.0,
+      "ct_dst_src_ltm": 2.0,
+      "ct_srv_dst": 5.0,
+      "rate": 25.166191
+    },
+    "x": [
+      24,
+      100,
+      17,
+      5,
+      12,
+      0
+    ],
+    "normalScore": "12971876",
+    "attackScore": "6109045",
+    "prediction": "Normal",
+    "correct": false
+  },
+  {
+    "sample_id": 92,
+    "original_test_row_index": 19229,
+    "attack_cat": "Generic",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_dst_src_ltm": 30.0,
+      "ct_srv_dst": 30.0,
+      "rate": 333333.3215
+    },
+    "x": [
+      100,
+      0,
+      33,
+      73,
+      73,
+      33
+    ],
+    "normalScore": "4025742",
+    "attackScore": "15055179",
+    "prediction": "Attack",
+    "correct": true
+  },
+  {
+    "sample_id": 93,
+    "original_test_row_index": 57416,
+    "attack_cat": "Generic",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_dst_src_ltm": 7.0,
+      "ct_srv_dst": 12.0,
+      "rate": 90909.0902
+    },
+    "x": [
+      100,
+      0,
+      33,
+      17,
+      29,
+      9
+    ],
+    "normalScore": "10271390",
+    "attackScore": "8809531",
+    "prediction": "Normal",
+    "correct": false
+  },
+  {
+    "sample_id": 94,
+    "original_test_row_index": 29,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 252.0,
+      "ct_state_ttl": 1.0,
+      "ct_dst_src_ltm": 1.0,
+      "ct_srv_dst": 1.0,
+      "rate": 10.459041
+    },
+    "x": [
+      100,
+      100,
+      17,
+      2,
+      2,
+      0
+    ],
+    "normalScore": "6153365",
+    "attackScore": "12927556",
+    "prediction": "Attack",
+    "correct": false
+  },
+  {
+    "sample_id": 95,
+    "original_test_row_index": 4016,
+    "attack_cat": "Exploits",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_dst_src_ltm": 7.0,
+      "ct_srv_dst": 7.0,
+      "rate": 125000.0003
+    },
+    "x": [
+      100,
+      0,
+      33,
+      17,
+      17,
+      12
+    ],
+    "normalScore": "7824761",
+    "attackScore": "11256160",
+    "prediction": "Attack",
+    "correct": true
+  },
+  {
+    "sample_id": 96,
+    "original_test_row_index": 62095,
+    "attack_cat": "Exploits",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 62.0,
+      "dttl": 252.0,
+      "ct_state_ttl": 1.0,
+      "ct_dst_src_ltm": 1.0,
+      "ct_srv_dst": 1.0,
+      "rate": 35.936135
+    },
+    "x": [
+      24,
+      100,
+      17,
+      2,
+      2,
+      0
+    ],
+    "normalScore": "7995149",
+    "attackScore": "11085772",
+    "prediction": "Attack",
+    "correct": true
+  },
+  {
+    "sample_id": 97,
+    "original_test_row_index": 62825,
+    "attack_cat": "Generic",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_dst_src_ltm": 1.0,
+      "ct_srv_dst": 2.0,
+      "rate": 83333.33039
+    },
+    "x": [
+      100,
+      0,
+      33,
+      2,
+      5,
+      8
+    ],
+    "normalScore": "9382072",
+    "attackScore": "9698849",
+    "prediction": "Attack",
+    "correct": true
+  },
+  {
+    "sample_id": 98,
+    "original_test_row_index": 17310,
+    "attack_cat": "Generic",
+    "dataset_label": "Attack",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 0.0,
+      "ct_state_ttl": 2.0,
+      "ct_dst_src_ltm": 26.0,
+      "ct_srv_dst": 23.0,
+      "rate": 111111.1072
+    },
+    "x": [
+      100,
+      0,
+      33,
+      63,
+      56,
+      11
+    ],
+    "normalScore": "3482837",
+    "attackScore": "15598084",
+    "prediction": "Attack",
+    "correct": true
+  },
+  {
+    "sample_id": 99,
+    "original_test_row_index": 75549,
+    "attack_cat": "Normal",
+    "dataset_label": "Normal",
+    "raw_features": {
+      "sttl": 254.0,
+      "dttl": 252.0,
+      "ct_state_ttl": 1.0,
+      "ct_dst_src_ltm": 2.0,
+      "ct_srv_dst": 2.0,
+      "rate": 21.510262
+    },
+    "x": [
+      100,
+      100,
+      17,
+      5,
+      5,
+      0
+    ],
+    "normalScore": "7181177",
+    "attackScore": "11899744",
+    "prediction": "Attack",
+    "correct": false
+  }
+]

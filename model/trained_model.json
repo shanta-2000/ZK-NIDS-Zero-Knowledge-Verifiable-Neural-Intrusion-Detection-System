@@ -1,0 +1,81 @@
+{
+  "model_name": "UNSW_NB15_ZK_Compatible_Square_NN",
+  "features": [
+    "sttl",
+    "dttl",
+    "ct_state_ttl",
+    "ct_dst_src_ltm",
+    "ct_srv_dst",
+    "rate"
+  ],
+  "feature_caps": {
+    "sttl": 254.0,
+    "dttl": 252.0,
+    "ct_state_ttl": 6.0,
+    "ct_dst_src_ltm": 41.0,
+    "ct_srv_dst": 41.0,
+    "rate": 1000000.003
+  },
+  "architecture": "6 input -> 4 square hidden neurons -> 2 output scores",
+  "W1": [
+    [
+      -2,
+      -3,
+      2,
+      -3,
+      3,
+      0
+    ],
+    [
+      3,
+      -2,
+      -3,
+      3,
+      2,
+      3
+    ],
+    [
+      -1,
+      -1,
+      1,
+      0,
+      -2,
+      -1
+    ],
+    [
+      1,
+      -3,
+      -1,
+      -1,
+      -3,
+      -3
+    ]
+  ],
+  "b1": [
+    0,
+    -4,
+    -2,
+    1
+  ],
+  "W2": [
+    [
+      -107,
+      -84,
+      433,
+      34
+    ],
+    [
+      107,
+      84,
+      -433,
+      -34
+    ]
+  ],
+  "b2": [
+    12469980,
+    6610941
+  ],
+  "training_note": "Small ZK-compatible neural model. Hidden layer uses square activation. Output layer trained using ridge regression after integer hidden-feature search.",
+  "validation_accuracy_percent": 90.6,
+  "selected_100_accuracy_percent": 67.0
+}
