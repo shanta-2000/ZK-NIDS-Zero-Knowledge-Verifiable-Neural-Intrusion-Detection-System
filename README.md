@@ -28,6 +28,6 @@ Finally, verified all proofs and performed a tampering test.
 
 - used Python for training, Node.js for input generation, Circom for circuit design, Poseidon for hashing, and snarkjs for proof generation and verification.
 
-- To conclude,  AI-based intrusion detection can be made verifiable, privacy-preserving, and tamper-resistant using zero-knowledge proof.
+To conclude,  AI-based intrusion detection can be made verifiable, privacy-preserving, and tamper-resistant using zero-knowledge proof.
 Using UNSW-NB15, our model achieved 81% accuracy on 100 selected samples, and all 100 ZK proofs were successfully verified.
 The tampering test produced Invalid proof, confirming output integrity.
