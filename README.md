@@ -20,12 +20,14 @@ We used the testing CSV file with 82,332 records for testing and ZK proof genera
 For the final experiment, we selected 100 balanced test samples: 50 normal traffic samples and 50 attack traffic samples.
 This makes our experiment dataset-driven instead of using only manually created input values.
 
-## Firstly, loaded the UNSW-NB15 training and testing files. Then selected six features and scaled them into integers.
+## Process
+Firstly, loaded the UNSW-NB15 training and testing files. Then selected six features and scaled them into integers.
 Next, trained a small neural model and selected 100 balanced test samples.
 For each sample, generated an input file, witness, Groth16 proof, and public output.
 Finally, verified all proofs and performed a tampering test.
-### used Python for training, Node.js for input generation, Circom for circuit design, Poseidon for hashing, and snarkjs for proof generation and verification.
 
-### To conclude,  AI-based intrusion detection can be made verifiable, privacy-preserving, and tamper-resistant using zero-knowledge proof.
+- used Python for training, Node.js for input generation, Circom for circuit design, Poseidon for hashing, and snarkjs for proof generation and verification.
+
+- To conclude,  AI-based intrusion detection can be made verifiable, privacy-preserving, and tamper-resistant using zero-knowledge proof.
 Using UNSW-NB15, our model achieved 81% accuracy on 100 selected samples, and all 100 ZK proofs were successfully verified.
 The tampering test produced Invalid proof, confirming output integrity.
